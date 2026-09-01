@@ -2,7 +2,7 @@
   "schema_version": "1.3",
   "language": "he-IL",
   "direction": "rtl",
-  "recipe_count": 25,
+  "recipe_count": 26,
   "recipes": [
     {
       "id": "pesto-homemade",
@@ -5637,6 +5637,311 @@
         "הכמויות במתכון מבוססות על כוס מדידה של 250 מ״ל."
       ],
       "image": "./images/recipes/hen-easy-perfect-lasagna.webp"
+    },
+    {
+      "id": "beef-sweet-potato-meatballs-sweet-sauce",
+      "name": "קציצות בשר ובטטה ברוטב מתקתק",
+      "category": "בשר",
+      "servings": "כ־16–18 קציצות",
+      "tags": [
+        "בשרי",
+        "סיר",
+        "מתאים להקפאה",
+        "מתאים להכנה מראש",
+        "מתאים לאורז"
+      ],
+      "times": {
+        "cook_minutes": "40–50"
+      },
+      "ingredient_groups": [
+        {
+          "name": "לקציצות",
+          "items": [
+            {
+              "id": "meat",
+              "name": "בשר בקר טחון",
+              "quantity": "650",
+              "unit": "גרם",
+              "display": "650 גרם בשר בקר טחון"
+            },
+            {
+              "id": "sweet_potato",
+              "name": "בטטה",
+              "quantity": "1",
+              "unit": "בינונית",
+              "display": "1 בטטה בינונית, כ־250 גרם, קלופה ומגוררת דק"
+            },
+            {
+              "id": "meatball_onion",
+              "name": "בצל",
+              "quantity": "1",
+              "unit": "קטן",
+              "display": "1 בצל קטן, מגורר או קצוץ דק מאוד"
+            },
+            {
+              "id": "meatball_garlic",
+              "name": "שום",
+              "quantity": "2",
+              "unit": "שיניים",
+              "display": "2 שיני שום כתושות"
+            },
+            {
+              "id": "egg",
+              "name": "ביצה",
+              "quantity": "1",
+              "display": "1 ביצה"
+            },
+            {
+              "id": "breadcrumbs",
+              "name": "פירורי לחם",
+              "quantity": "3–4",
+              "unit": "כפות",
+              "display": "3 כפות פירורי לחם, ועוד 1 כף לפי הצורך"
+            },
+            {
+              "id": "parsley",
+              "name": "פטרוזיליה",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות פטרוזיליה קצוצה",
+              "optional": true
+            },
+            {
+              "id": "meatball_paprika",
+              "name": "פפריקה מתוקה",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית פפריקה מתוקה"
+            },
+            {
+              "id": "meatball_cumin",
+              "name": "כמון",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית כמון"
+            },
+            {
+              "id": "meatball_pepper",
+              "name": "פלפל שחור",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית פלפל שחור"
+            },
+            {
+              "id": "meatball_salt",
+              "name": "מלח",
+              "quantity": "3/4",
+              "unit": "כפית",
+              "display": "¾ כפית מלח"
+            },
+            {
+              "id": "meatball_oil",
+              "name": "שמן",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף שמן"
+            }
+          ]
+        },
+        {
+          "name": "לרוטב",
+          "items": [
+            {
+              "id": "sauce_oil",
+              "name": "שמן",
+              "quantity": "1–2",
+              "unit": "כפות",
+              "display": "1–2 כפות שמן"
+            },
+            {
+              "id": "sauce_onion",
+              "name": "בצל",
+              "quantity": "1",
+              "unit": "בינוני",
+              "display": "1 בצל בינוני, פרוס לחצאי טבעות"
+            },
+            {
+              "id": "sauce_garlic",
+              "name": "שום",
+              "quantity": "2",
+              "unit": "שיניים",
+              "display": "2 שיני שום כתושות"
+            },
+            {
+              "id": "silan",
+              "name": "סילאן",
+              "quantity": "1.5",
+              "unit": "כפות",
+              "display": "1½ כפות סילאן"
+            },
+            {
+              "id": "soy_sauce",
+              "name": "רוטב סויה",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות רוטב סויה"
+            },
+            {
+              "id": "sauce_paprika",
+              "name": "פפריקה מתוקה",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית פפריקה מתוקה"
+            },
+            {
+              "id": "sauce_cumin",
+              "name": "כמון",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית כמון"
+            },
+            {
+              "id": "lemon_or_vinegar",
+              "name": "מיץ לימון או חומץ",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף מיץ לימון או חומץ"
+            },
+            {
+              "id": "water",
+              "name": "מים",
+              "quantity": "1.5",
+              "unit": "כוסות",
+              "display": "1½ כוסות מים"
+            },
+            {
+              "id": "sauce_salt",
+              "name": "מלח",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "עד ½ כפית מלח, רק אם צריך",
+              "optional": true,
+              "notes": "רוטב הסויה כבר מלוח."
+            },
+            {
+              "id": "sauce_pepper",
+              "name": "פלפל שחור",
+              "display": "מעט פלפל שחור"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מכינים את הבטטה",
+          "instruction": "מגררים דק 1 בטטה בינונית, כ־250 גרם. אם היא מפרישה הרבה נוזלים, סוחטים אותה בעדינות בידיים.",
+          "ingredient_refs": [
+            "sweet_potato"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "מערבבים את תערובת הקציצות",
+          "instruction": "מערבבים בקערה 650 גרם בשר טחון, כ־250 גרם בטטה מגוררת, 1 בצל קטן, 2 שיני שום כתושות, 1 ביצה, 3 כפות פירורי לחם, 2 כפות פטרוזיליה אופציונלית, 1 כפית פפריקה, ½ כפית כמון, ½ כפית פלפל שחור, ¾ כפית מלח ו־1 כף שמן, רק עד שהתערובת אחידה. אם היא רכה מאוד, מוסיפים עוד 1 כף פירורי לחם.",
+          "ingredient_refs": [
+            "meat",
+            "sweet_potato",
+            "meatball_onion",
+            "meatball_garlic",
+            "egg",
+            "breadcrumbs",
+            "parsley",
+            "meatball_paprika",
+            "meatball_cumin",
+            "meatball_pepper",
+            "meatball_salt",
+            "meatball_oil"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "יוצרים קציצות",
+          "instruction": "יוצרים 16–18 קציצות בינוניות. אם יש זמן, מקררים את הקציצות 20–30 דקות; אפשר להמשיך מיד אם אין זמן.",
+          "ingredient_refs": [],
+          "timer_minutes": 20,
+          "timer_options": [
+            20,
+            30
+          ],
+          "needs": [
+            {
+              "label": "תערובת הקציצות"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "מטגנים את הבצל לרוטב",
+          "instruction": "מחממים בסיר רחב 1–2 כפות שמן ומטגנים 1 בצל בינוני פרוס על אש בינונית 6–8 דקות, עד שהוא מתרכך ומתחיל להזהיב.",
+          "ingredient_refs": [
+            "sauce_oil",
+            "sauce_onion"
+          ],
+          "timer_minutes": 6,
+          "timer_options": [
+            6,
+            8
+          ]
+        },
+        {
+          "id": 5,
+          "title": "מכינים את הרוטב",
+          "instruction": "מוסיפים 2 שיני שום כתושות ומטגנים כחצי דקה. מוסיפים 1½ כפות סילאן, 2 כפות רוטב סויה, 1 כפית פפריקה, ½ כפית כמון, 1 כף מיץ לימון או חומץ ו־1½ כוסות מים. מערבבים ומביאים לרתיחה עדינה. טועמים ומוסיפים מעט פלפל שחור ועד ½ כפית מלח רק אם צריך.",
+          "ingredient_refs": [
+            "sauce_garlic",
+            "silan",
+            "soy_sauce",
+            "sauce_paprika",
+            "sauce_cumin",
+            "lemon_or_vinegar",
+            "water",
+            "sauce_pepper",
+            "sauce_salt"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "מבשלים את הקציצות ברוטב",
+          "instruction": "מניחים את 16–18 הקציצות ברוטב בשכבה אחת ככל האפשר. מכסים ומבשלים על אש נמוכה–בינונית כ־25 דקות.",
+          "ingredient_refs": [],
+          "timer_minutes": 25,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "הקציצות המוכנות לבישול"
+            },
+            {
+              "label": "הרוטב שבסיר"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "מצמצמים את הרוטב",
+          "instruction": "מסירים את המכסה ומבשלים עוד 10–15 דקות, עד שהרוטב מצטמצם ומצפה את הקציצות. מנערים מדי פעם את הסיר במקום לערבב בכף, כדי לא לפרק את הקציצות.",
+          "ingredient_refs": [],
+          "timer_minutes": 10,
+          "suggest_timer": true,
+          "timer_options": [
+            10,
+            15
+          ],
+          "needs": [
+            {
+              "label": "הקציצות המבושלות ברוטב"
+            }
+          ]
+        }
+      ],
+      "variations": [],
+      "storage": {
+        "freezer": "מצננים לגמרי, מחלקים לקופסאות עם מספיק רוטב בכל קופסה ומקפיאים. מפשירים לילה במקרר ומחממים בסיר או במיקרוגל."
+      },
+      "notes": [
+        "מתאים במיוחד להגשה עם אורז לבן, קוסקוס או פירה."
+      ],
+      "image": "./images/recipes/beef-sweet-potato-meatballs-sweet-sauce.webp"
     }
   ]
 }
