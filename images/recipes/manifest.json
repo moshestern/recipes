@@ -123,5 +123,10 @@
     "source": "creamy_spinach_lasagna_slice.png",
     "output": "images/recipes/hen-easy-perfect-lasagna.webp",
     "bytes": 163874
+  },
+  "beef-sweet-potato-meatballs-sweet-sauce": {
+    "source": "exec-120b8af6-d545-4c83-8a1b-4cfab0bf8465.png",
+    "output": "images/recipes/beef-sweet-potato-meatballs-sweet-sauce.webp",
+    "bytes": 139092
   }
 }
