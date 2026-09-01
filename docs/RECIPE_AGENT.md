@@ -51,25 +51,34 @@ The agent finds the recipe by title/id, applies the requested change, updates de
 
 ### 5. Finished-dish photograph
 
-The image is used as the reference for generating a visually consistent recipe image. The final asset is converted to WebP and saved using the existing recipe id.
+The image is used as the reference for generating a visually consistent recipe image. The final asset is converted to WebP and named using the existing recipe id.
+
+If the active GitHub integration cannot upload binary files, the agent must provide the WebP separately and tell the user exactly where to upload it on the recipe branch:
+
+```text
+images/recipes/<recipe-id>.webp
+```
+
+The PR should remain open and clearly marked as waiting for that image until the file exists in the branch.
 
 ## Expected GitHub workflow
 
 1. Read `AGENTS.md`.
 2. Read the current `data/recipes.json`.
 3. Make the smallest correct change.
-4. Add/update the image if needed.
-5. Run the validator.
-6. Inspect the diff.
-7. Create a branch such as:
+4. Generate/prepare the image if needed.
+5. Upload the image automatically when binary upload is supported; otherwise hand the WebP to the user with the exact branch/path and wait for the manual upload.
+6. Run the validator.
+7. Inspect the diff.
+8. Create a branch such as:
 
 ```text
 recipe/add-meat-sweet-potato-meatballs
 ```
 
-8. Commit with a descriptive message.
-9. Open a Pull Request.
-10. Report the PR back to the user for review.
+9. Commit with a descriptive message.
+10. Open a Pull Request.
+11. Report the PR back to the user for review, including whether an image upload is still pending.
 
 ## Why PRs instead of direct push
 
