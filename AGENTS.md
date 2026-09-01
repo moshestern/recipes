@@ -35,7 +35,7 @@ When adding a recipe:
 10. Preserve time ranges as ranges when the recipe says e.g. 15–20 minutes.
 11. Add categories/tags by reusing the repository vocabulary where possible.
 12. Add `source` for external recipes.
-13. Add an image at `images/recipes/<id>.webp` and set the recipe's `image` field accordingly.
+13. Prepare the recipe image as `images/recipes/<id>.webp` and set the recipe's `image` field accordingly. If the available GitHub integration cannot upload binary files, generate/provide the WebP to the user, tell them the exact target path and leave the PR clearly marked as waiting for the image upload.
 14. Run `node scripts/validate-recipes.mjs`.
 15. Do not submit changes if validation fails.
 
@@ -89,6 +89,8 @@ The filename must be:
 images/recipes/<recipe-id>.webp
 ```
 
+If the active GitHub connector cannot upload binary assets, do not pretend the image was committed. Generate/provide the final WebP separately, ask the user to upload it to the recipe branch at the exact path above, and keep the PR unmerged until the image exists in the branch.
+
 ## Pull requests
 
 Prefer a Pull Request over direct edits to `main`.
@@ -100,7 +102,7 @@ Add recipe: קציצות בשר ובטטה
 Update recipe: חריימה מנסיכת הנילוס
 ```
 
-The PR description should summarize the recipe/content changes and state that validation passes.
+The PR description should summarize the recipe/content changes and state that validation passes. If an image still requires manual upload, state that explicitly in the PR description/checklist.
 
 ## Codex code review instructions
 
@@ -116,7 +118,7 @@ Check especially for:
 4. **Timers** — `suggest_timer` should only be enabled when useful, and timer values/ranges must agree with the preparation text.
 5. **Kosher consistency** — meat recipes must not accidentally introduce dairy ingredients or dairy tags.
 6. **Sources** — externally sourced recipes should preserve factual recipe details, include valid source metadata, and avoid unnecessary verbatim copying.
-7. **Images** — new recipes should have `images/recipes/<id>.webp`; the JSON image path and recipe `id` must stay in sync.
+7. **Images** — new recipes should have `images/recipes/<id>.webp`; the JSON image path and recipe `id` must stay in sync. If the PR says binary upload is still pending, do not approve it for merge until the image is present.
 8. **Schema and validation** — changes must remain compatible with `scripts/validate-recipes.mjs`; flag cases where the validator passes but semantic references are still clearly wrong.
 9. **UI regressions** — verify search, category/tag filtering, recipe detail routing and cooking mode are not broken by changes to `app.js`, `styles.css`, `index.html`, or recipe fields.
 10. **Mobile UX** — pay special attention to narrow-screen layout, touch targets, bottom sheets/popovers, cooking-mode readability and timer controls.
@@ -133,7 +135,7 @@ Always verify:
 
 - JSON parses successfully.
 - `node scripts/validate-recipes.mjs` passes.
-- Every new recipe has an image.
+- Every new recipe has an image, or the PR is explicitly waiting for the user to upload the generated WebP.
 - Image path matches the recipe id.
 - No ingredient references are broken.
 - Timers are intentionally suggested.
