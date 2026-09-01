@@ -1,0 +1,5642 @@
+{
+  "schema_version": "1.3",
+  "language": "he-IL",
+  "direction": "rtl",
+  "recipe_count": 25,
+  "recipes": [
+    {
+      "id": "pesto-homemade",
+      "name": "פסטו ביתי",
+      "category": "רטבים וממרחים",
+      "servings": "צנצנת בינונית",
+      "tags": [
+        "חלבי",
+        "מהיר",
+        "ללא אפייה",
+        "צמחוני"
+      ],
+      "times": {
+        "prep_minutes": 10
+      },
+      "ingredient_groups": [
+        {
+          "name": "מצרכים",
+          "items": [
+            {
+              "id": "basil",
+              "name": "עלי בזיליקום טריים",
+              "quantity": "2",
+              "unit": "כוסות",
+              "display": "2 כוסות עלי בזיליקום טריים, ללא גבעולים"
+            },
+            {
+              "id": "parmesan",
+              "name": "פרמזן מגורד",
+              "quantity": "1/2",
+              "unit": "כוס",
+              "display": "½ כוס פרמזן מגורד"
+            },
+            {
+              "id": "nuts",
+              "name": "צנוברים",
+              "quantity": "1/3",
+              "unit": "כוס",
+              "display": "⅓ כוס צנוברים",
+              "notes": "אפשר להחליף באגוזי מלך או שקדים"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "2–3",
+              "unit": "שיניים",
+              "display": "2–3 שיני שום קלופות"
+            },
+            {
+              "id": "olive_oil",
+              "name": "שמן זית",
+              "quantity": "1/2",
+              "unit": "כוס",
+              "display": "½ כוס שמן זית, או לפי המרקם"
+            },
+            {
+              "id": "salt",
+              "name": "מלח",
+              "display": "מלח לפי הטעם"
+            },
+            {
+              "id": "pepper",
+              "name": "פלפל שחור",
+              "display": "פלפל שחור לפי הטעם"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "טוחנים את הבסיס",
+          "instruction": "טוחנים במעבד מזון 2 כוסות עלי בזיליקום, ⅓ כוס צנוברים ו־2–3 שיני שום עד שמתקבלת מחית.",
+          "ingredient_refs": [
+            "basil",
+            "nuts",
+            "garlic"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "מוסיפים פרמזן",
+          "instruction": "מוסיפים ½ כוס פרמזן מגורד וממשיכים לטחון עד שהתערובת אחידה.",
+          "ingredient_refs": [
+            "parmesan"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "מוסיפים שמן",
+          "instruction": "כשהמעבד פועל מוסיפים בהדרגה עד ½ כוס שמן זית, ועוצרים כשהמרקם קרמי ונוח למריחה.",
+          "ingredient_refs": [
+            "olive_oil"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "מתבלים",
+          "instruction": "מוסיפים מלח ופלפל שחור לפי הטעם וטוחנים רק עוד כמה שניות.",
+          "ingredient_refs": [
+            "salt",
+            "pepper"
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "title": "החלפת אגוזים",
+          "description": "במקום ⅓ כוס צנוברים אפשר להשתמש באותה כמות אגוזי מלך או שקדים."
+        }
+      ],
+      "storage": {
+        "refrigerator": "עד שבוע בצנצנת אטומה במקרר."
+      },
+      "notes": [],
+      "image": "./images/recipes/pesto-homemade.webp"
+    },
+    {
+      "id": "cauliflower-onion-parve-pie",
+      "name": "פשטידת כרובית ובצל פרווה",
+      "category": "פשטידות ומאפים",
+      "servings": "תבנית בינונית",
+      "tags": [
+        "פרווה",
+        "צמחוני",
+        "תנור"
+      ],
+      "times": {
+        "prep_minutes": 20,
+        "cook_minutes": 10,
+        "bake_minutes": "40–45"
+      },
+      "ingredient_groups": [
+        {
+          "name": "מצרכים",
+          "items": [
+            {
+              "id": "cauliflower",
+              "name": "כרובית",
+              "quantity": "1",
+              "unit": "בינונית",
+              "display": "1 כרובית בינונית, מפורקת לפרחים"
+            },
+            {
+              "id": "onions",
+              "name": "בצלים",
+              "quantity": "2",
+              "unit": "גדולים",
+              "display": "2 בצלים גדולים, פרוסים דק"
+            },
+            {
+              "id": "eggs",
+              "name": "ביצים",
+              "quantity": "3",
+              "display": "3 ביצים"
+            },
+            {
+              "id": "flour",
+              "name": "קמח",
+              "quantity": "1/2",
+              "unit": "כוס",
+              "display": "½ כוס קמח",
+              "notes": "אפשר כוסמין או קמח ללא גלוטן"
+            },
+            {
+              "id": "fry_oil",
+              "name": "שמן לטיגון הבצל",
+              "quantity": "3",
+              "unit": "כפות",
+              "display": "3 כפות שמן לטיגון הבצל"
+            },
+            {
+              "id": "batter_oil",
+              "name": "שמן לבלילה",
+              "quantity": "4",
+              "unit": "כפות",
+              "display": "4 כפות שמן לבלילה"
+            },
+            {
+              "id": "grease_oil",
+              "name": "שמן לשימון התבנית",
+              "display": "מעט שמן לשימון התבנית",
+              "optional": true
+            },
+            {
+              "id": "water",
+              "name": "מים",
+              "quantity": "1",
+              "unit": "כוס",
+              "display": "1 כוס מים"
+            },
+            {
+              "id": "baking_powder",
+              "name": "אבקת אפייה",
+              "quantity": "1",
+              "unit": "שקית",
+              "display": "1 שקית אבקת אפייה"
+            },
+            {
+              "id": "salt",
+              "name": "מלח",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית מלח, או לפי הטעם"
+            },
+            {
+              "id": "pepper",
+              "name": "פלפל שחור",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית פלפל שחור"
+            },
+            {
+              "id": "optional_spices",
+              "name": "כורכום / פפריקה / שום כתוש",
+              "display": "כורכום, פפריקה או שום כתוש לפי הטעם",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מרככים כרובית",
+          "instruction": "מבשלים 1 כרובית בינונית במים עם מעט מתוך 1 כפית המלח כ־10 דקות, מסננים ומועכים קלות.",
+          "ingredient_refs": [
+            "cauliflower",
+            "salt"
+          ],
+          "timer_minutes": 10,
+          "suggest_timer": true
+        },
+        {
+          "id": 2,
+          "title": "מטגנים בצל",
+          "instruction": "מטגנים 2 בצלים גדולים ב־3 כפות שמן עד שהם רכים וזהובים.",
+          "ingredient_refs": [
+            "onions",
+            "fry_oil"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "מכינים בלילה",
+          "instruction": "טורפים 3 ביצים, מוסיפים 1 כוס מים, 4 כפות שמן, ½ כוס קמח ו־1 שקית אבקת אפייה ומערבבים לבלילה חלקה.",
+          "ingredient_refs": [
+            "eggs",
+            "water",
+            "batter_oil",
+            "flour",
+            "baking_powder"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "מתבלים ומאחדים",
+          "instruction": "מוסיפים את יתרת 1 כפית המלח, ½ כפית פלפל שחור ותבלינים אופציונליים; מקפלים פנימה את הכרובית והבצל.",
+          "ingredient_refs": [
+            "salt",
+            "pepper",
+            "optional_spices",
+            "cauliflower",
+            "onions"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "אופים",
+          "instruction": "יוצקים לתבנית משומנת במעט שמן ואופים ב־180°C כ־40–45 דקות, עד שהפשטידה יציבה וזהובה.",
+          "ingredient_refs": [
+            "grease_oil"
+          ],
+          "timer_minutes": 40,
+          "suggest_timer": true,
+          "timer_options": [
+            40,
+            45
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "title": "תוספות",
+          "description": "אפשר להוסיף פטריות מוקפצות, זיתים או תירס לפי הטעם."
+        },
+        {
+          "title": "טעם גבינתי פרווה",
+          "description": "אפשר להוסיף 2 כפות שמרי בירה."
+        },
+        {
+          "title": "מרקם רך יותר",
+          "description": "אפשר להוסיף עוד ¼ כוס מים."
+        }
+      ],
+      "storage": {},
+      "notes": [
+        "כמות השמן הסופית: 3 כפות לטיגון הבצל ו־4 כפות לבלילה, במקום ½ כוס שמן."
+      ],
+      "image": "./images/recipes/cauliflower-onion-parve-pie.webp"
+    },
+    {
+      "id": "chicken-fried-rice",
+      "name": "מוקפץ חזה עוף עם אורז",
+      "category": "עוף",
+      "servings": "5–6 מנות",
+      "tags": [
+        "בשרי",
+        "מוקפץ",
+        "מתאים לחימום חוזר",
+        "ילדים"
+      ],
+      "times": {
+        "prep_minutes": 15,
+        "cook_minutes": 30
+      },
+      "ingredient_groups": [
+        {
+          "name": "עיקר המנה",
+          "items": [
+            {
+              "id": "chicken",
+              "name": "חזה עוף",
+              "quantity": "1",
+              "unit": "ק״ג",
+              "display": "1 ק״ג חזה עוף פרוס לרצועות"
+            },
+            {
+              "id": "rice_dry",
+              "name": "אורז יבש",
+              "quantity": "1.5",
+              "unit": "כוסות",
+              "display": "1½ כוסות אורז יבש — מתקבלות לאחר הבישול כ־3–4 כוסות אורז מבושל",
+              "notes": "כל הכמות המבושלת נכנסת למוקפץ."
+            },
+            {
+              "id": "rice_water",
+              "name": "מים לאורז",
+              "quantity": "2",
+              "unit": "כוסות",
+              "display": "2 כוסות מים"
+            },
+            {
+              "id": "rice_salt",
+              "name": "מלח לאורז",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית מלח"
+            },
+            {
+              "id": "rice_oil",
+              "name": "שמן לאורז",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף שמן",
+              "optional": true
+            },
+            {
+              "id": "eggs",
+              "name": "ביצים",
+              "quantity": "3",
+              "display": "3 ביצים"
+            },
+            {
+              "id": "onion",
+              "name": "בצל",
+              "quantity": "1",
+              "unit": "קטן",
+              "display": "1 בצל קטן קצוץ",
+              "optional": true
+            },
+            {
+              "id": "soy",
+              "name": "רוטב סויה",
+              "quantity": "4–5",
+              "unit": "כפות",
+              "display": "4–5 כפות רוטב סויה"
+            },
+            {
+              "id": "sweet_chili",
+              "name": "רוטב צ׳ילי מתוק",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות רוטב צ׳ילי מתוק",
+              "optional": true
+            },
+            {
+              "id": "sesame_oil",
+              "name": "שמן שומשום",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית שמן שומשום",
+              "optional": true
+            },
+            {
+              "id": "fry_oil",
+              "name": "שמן לטיגון",
+              "display": "שמן לטיגון לפי הצורך"
+            },
+            {
+              "id": "salt_pepper",
+              "name": "מלח ופלפל",
+              "display": "מלח ופלפל לפי הטעם"
+            }
+          ]
+        },
+        {
+          "name": "ירקות בצד",
+          "items": [
+            {
+              "id": "cauliflower",
+              "name": "כרובית",
+              "display": "כרובית לפי הכמות שיש, לפרחים קטנים",
+              "optional": true
+            },
+            {
+              "id": "green_beans",
+              "name": "שעועית ירוקה",
+              "display": "שעועית ירוקה לפי הכמות שיש",
+              "optional": true
+            },
+            {
+              "id": "spinach",
+              "name": "עלי תרד",
+              "display": "עלי תרד לפי הכמות שיש",
+              "optional": true
+            },
+            {
+              "id": "veg_soy",
+              "name": "סויה/מלח לירקות",
+              "display": "מעט סויה או מלח לירקות",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מבשלים אורז",
+          "instruction": "שוטפים 1½ כוסות אורז יבש 2–3 פעמים. מרתיחים 2 כוסות מים עם ½ כפית מלח ו־1 כף שמן אופציונלית, מוסיפים את האורז, מכסים ומבשלים 10–12 דקות על אש נמוכה. מכבים ומשאירים מכוסה עוד 10 דקות; מאווררים ומקררים. מתקבלות כ־3–4 כוסות אורז מבושל.",
+          "ingredient_refs": [
+            "rice_dry",
+            "rice_water",
+            "rice_salt",
+            "rice_oil"
+          ],
+          "timer_minutes": 22
+        },
+        {
+          "id": 2,
+          "title": "צורבים את העוף",
+          "instruction": "מחממים ווק עם שמן לטיגון וצורבים 1 ק״ג חזה עוף ב־2–3 נגלות, כ־3–4 דקות לכל נגלה, עד שהוא מוכן. מוציאים הצידה.",
+          "ingredient_refs": [
+            "chicken",
+            "fry_oil"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "מטגנים בצל",
+          "instruction": "אם משתמשים, מטגנים 1 בצל קטן קצוץ במעט שמן עד שקוף־זהוב.",
+          "ingredient_refs": [
+            "onion",
+            "fry_oil"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "מכינים ביצים",
+          "instruction": "מוסיפים מעט שמן אם צריך, שוברים 3 ביצים ומערבבים כמו מקושקשת.",
+          "ingredient_refs": [
+            "eggs",
+            "fry_oil"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "מחברים",
+          "instruction": "מחזירים למחבת את 1 ק״ג העוף ומוסיפים 3–4 כוסות אורז מבושל ומקורר, שהוכנו מ־1½ כוסות אורז יבש. מערבבים על אש גבוהה.",
+          "ingredient_refs": [
+            "chicken",
+            "rice_dry"
+          ],
+          "needs": [
+            {
+              "label": "העוף הצרוב"
+            },
+            {
+              "label": "האורז המבושל והמקורר"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "מתבלים",
+          "instruction": "מוסיפים 4–5 כפות סויה, 2 כפות צ׳ילי מתוק ו־1 כפית שמן שומשום אם משתמשים; מערבבים 2–3 דקות. מתקנים מלח ופלפל לפי הטעם.",
+          "ingredient_refs": [
+            "soy",
+            "sweet_chili",
+            "sesame_oil",
+            "salt_pepper"
+          ],
+          "timer_minutes": 3,
+          "needs": [
+            {
+              "label": "המוקפץ המאוחד"
+            },
+            {
+              "ingredient_ref": "soy"
+            },
+            {
+              "ingredient_ref": "sweet_chili"
+            },
+            {
+              "ingredient_ref": "sesame_oil"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "ירקות בצד",
+          "instruction": "אם מכינים ירקות: חולטים כרובית 3–4 דקות ושעועית ירוקה 3–6 דקות לפי הסוג; מקפיצים 2–3 דקות, מוסיפים עלי תרד רק ל־1–2 הדקות האחרונות ומתבלים במעט סויה או מלח. מגישים בקערה נפרדת.",
+          "ingredient_refs": [
+            "cauliflower",
+            "green_beans",
+            "spinach",
+            "veg_soy"
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "title": "טעם מסעדה",
+          "description": "אפשר להוסיף ½ כפית סוכר יחד עם הסויה."
+        }
+      ],
+      "storage": {
+        "reheat": "בחימום חוזר להוסיף כף מים או מעט סויה ולחמם מכוסה."
+      },
+      "notes": [],
+      "image": "./images/recipes/chicken-fried-rice.webp"
+    },
+    {
+      "id": "chicken-potatoes-oven",
+      "name": "פילה עוף עם תפוחי אדמה בתנור",
+      "category": "עוף",
+      "servings": "4–5 מנות",
+      "tags": [
+        "בשרי",
+        "תנור",
+        "ארוחה בתבנית אחת"
+      ],
+      "times": {
+        "prep_minutes": 15,
+        "bake_minutes": "35–40"
+      },
+      "ingredient_groups": [
+        {
+          "name": "מצרכים",
+          "items": [
+            {
+              "id": "chicken",
+              "name": "פילה עוף",
+              "quantity": "500–700",
+              "unit": "גרם",
+              "display": "500–700 גרם פילה עוף"
+            },
+            {
+              "id": "potatoes",
+              "name": "תפוחי אדמה",
+              "quantity": "4–5",
+              "unit": "בינוניים",
+              "display": "4–5 תפוחי אדמה בינוניים"
+            },
+            {
+              "id": "olive_oil",
+              "name": "שמן זית",
+              "quantity": "3",
+              "unit": "כפות",
+              "display": "3 כפות שמן זית"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "3",
+              "unit": "שיניים",
+              "display": "3 שיני שום כתושות"
+            },
+            {
+              "id": "paprika",
+              "name": "פפריקה",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית פפריקה רגילה או מעושנת"
+            },
+            {
+              "id": "turmeric",
+              "name": "כורכום",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית כורכום",
+              "optional": true
+            },
+            {
+              "id": "chicken_spice",
+              "name": "תבלין עוף / גריל",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית תבלין עוף או גריל"
+            },
+            {
+              "id": "salt_pepper",
+              "name": "מלח ופלפל",
+              "display": "מלח ופלפל לפי הטעם"
+            },
+            {
+              "id": "onion",
+              "name": "בצל",
+              "display": "בצל חתוך",
+              "optional": true
+            },
+            {
+              "id": "herbs",
+              "name": "רוזמרין / טימין",
+              "display": "רוזמרין או טימין",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מתחילים בתפוחי האדמה",
+          "instruction": "חותכים 4–5 תפוחי אדמה לקוביות 2–3 ס״מ. מערבבים עם 1½ כפות שמן זית, כחצי מכפית הפפריקה, כחצי מכפית הכורכום האופציונלית, כחצי מכפית תבלין העוף ומלח־פלפל.",
+          "ingredient_refs": [
+            "potatoes",
+            "olive_oil",
+            "paprika",
+            "turmeric",
+            "chicken_spice",
+            "salt_pepper"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "אפייה מוקדמת",
+          "instruction": "מסדרים את תפוחי האדמה בתבנית ואופים ב־200°C כ־15 דקות. לקריספיות נוספת אפשר לתת להם עוד 5–10 דקות לפני הוספת העוף.",
+          "ingredient_refs": [
+            "potatoes"
+          ],
+          "timer_minutes": 15,
+          "suggest_timer": true
+        },
+        {
+          "id": 3,
+          "title": "מתבלים עוף",
+          "instruction": "מערבבים 500–700 גרם פילה עוף עם 1½ כפות שמן זית, 3 שיני שום, יתרת הפפריקה, הכורכום ותבלין העוף, ומלח־פלפל. אפשר להוסיף בצל ועשבי תיבול.",
+          "ingredient_refs": [
+            "chicken",
+            "olive_oil",
+            "garlic",
+            "paprika",
+            "turmeric",
+            "chicken_spice",
+            "salt_pepper",
+            "onion",
+            "herbs"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "מסיימים בתנור",
+          "instruction": "מוסיפים את העוף לתבנית בין תפוחי האדמה וממשיכים לאפות ב־200°C עוד 20–25 דקות, עד שהעוף מוכן וזהוב.",
+          "ingredient_refs": [
+            "chicken",
+            "potatoes"
+          ],
+          "timer_minutes": 20,
+          "suggest_timer": true,
+          "timer_options": [
+            20,
+            25
+          ],
+          "needs": [
+            {
+              "label": "תפוחי האדמה לאחר האפייה המוקדמת"
+            },
+            {
+              "label": "העוף המתובל"
+            }
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "title": "טוויסט בסיום",
+          "description": "אפשר להוסיף בסוף מעט מיץ לימון או דבש, לפי הטעם."
+        }
+      ],
+      "storage": {},
+      "notes": [
+        "3 כפות שמן הזית מחולקות חצי־חצי: 1½ כפות לתפוחי האדמה ו־1½ כפות לעוף."
+      ],
+      "image": "./images/recipes/chicken-potatoes-oven.webp"
+    },
+    {
+      "id": "chicken-potatoes-stirfry",
+      "name": "מוקפץ פילה עוף ותפוחי אדמה ברוטב עשיר",
+      "category": "עוף",
+      "servings": "3–4 מנות",
+      "tags": [
+        "בשרי",
+        "מוקפץ",
+        "אסייתי",
+        "מחבת"
+      ],
+      "times": {
+        "prep_minutes": 15,
+        "cook_minutes": 20
+      },
+      "ingredient_groups": [
+        {
+          "name": "עיקר המנה",
+          "items": [
+            {
+              "id": "chicken",
+              "name": "פילה עוף",
+              "quantity": "500",
+              "unit": "גרם",
+              "display": "500 גרם פילה עוף, חתוך לרצועות"
+            },
+            {
+              "id": "potatoes",
+              "name": "תפוחי אדמה",
+              "quantity": "3–4",
+              "display": "3–4 תפוחי אדמה, קוביות 1–2 ס״מ"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "2",
+              "unit": "שיניים",
+              "display": "2 שיני שום"
+            },
+            {
+              "id": "ginger",
+              "name": "ג׳ינג׳ר",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית ג׳ינג׳ר טרי או קפוא"
+            },
+            {
+              "id": "oil",
+              "name": "שמן",
+              "quantity": "3",
+              "unit": "כפות",
+              "display": "3 כפות שמן"
+            }
+          ]
+        },
+        {
+          "name": "רוטב",
+          "items": [
+            {
+              "id": "soy",
+              "name": "רוטב סויה",
+              "quantity": "3",
+              "unit": "כפות",
+              "display": "3 כפות רוטב סויה"
+            },
+            {
+              "id": "silan",
+              "name": "סילאן או דבש",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף סילאן או דבש"
+            },
+            {
+              "id": "ketchup",
+              "name": "קטשופ",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף קטשופ"
+            },
+            {
+              "id": "vinegar",
+              "name": "חומץ אורז או חומץ רגיל",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית חומץ"
+            },
+            {
+              "id": "water",
+              "name": "מים",
+              "quantity": "1/2",
+              "unit": "כוס",
+              "display": "½ כוס מים"
+            },
+            {
+              "id": "cornstarch",
+              "name": "קורנפלור",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית קורנפלור"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מרככים תפוחי אדמה",
+          "instruction": "מחממים 1½ כפות מתוך 3 כפות השמן ומטגנים 3–4 תפוחי אדמה בקוביות 1–2 ס״מ עד שהם חצי־רכים ומתחילים להזהיב.",
+          "ingredient_refs": [
+            "potatoes",
+            "oil"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "צורבים עוף",
+          "instruction": "מחממים את 1½ כפות השמן הנותרות, צורבים 500 גרם פילה עוף עד הזהבה ומוציאים הצידה.",
+          "ingredient_refs": [
+            "chicken",
+            "oil"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "פותחים טעמים",
+          "instruction": "באותה מחבת מטגנים 2 שיני שום ו־1 כפית ג׳ינג׳ר כחצי דקה, בלי לשרוף.",
+          "ingredient_refs": [
+            "garlic",
+            "ginger"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "משחימים תפוחי אדמה",
+          "instruction": "מוסיפים את 3–4 תפוחי האדמה החצי־רכים ומטגנים עד שהם זהובים.",
+          "ingredient_refs": [
+            "potatoes"
+          ],
+          "needs": [
+            {
+              "label": "תפוחי האדמה החצי־רכים"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "מחזירים עוף",
+          "instruction": "מחזירים למחבת את 500 גרם פילה העוף.",
+          "ingredient_refs": [
+            "chicken"
+          ],
+          "needs": [
+            {
+              "label": "תפוחי האדמה המושחמים"
+            },
+            {
+              "label": "העוף הצרוב"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "מוסיפים רוטב",
+          "instruction": "מערבבים 3 כפות סויה, 1 כף סילאן/דבש, 1 כף קטשופ, 1 כפית חומץ, ½ כוס מים ו־1 כפית קורנפלור; שופכים למחבת ומערבבים 1–2 דקות עד שהרוטב מסמיך ומבריק.",
+          "ingredient_refs": [
+            "soy",
+            "silan",
+            "ketchup",
+            "vinegar",
+            "water",
+            "cornstarch"
+          ],
+          "timer_minutes": 2,
+          "needs": [
+            {
+              "label": "העוף ותפוחי האדמה במחבת"
+            },
+            {
+              "ingredient_ref": "soy"
+            },
+            {
+              "ingredient_ref": "silan"
+            },
+            {
+              "ingredient_ref": "ketchup"
+            },
+            {
+              "ingredient_ref": "vinegar"
+            },
+            {
+              "ingredient_ref": "water"
+            },
+            {
+              "ingredient_ref": "cornstarch"
+            }
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "title": "ריכוך תפוחי האדמה במים",
+          "description": "במקום טיגון מקדים אפשר לבשל את קוביות תפוחי האדמה 5–7 דקות במים רותחים עד חצי־רכות; במקרה כזה אין חובה להשתמש בכל 1½ כפות השמן שיועדו לטיגון שלהן."
+        },
+        {
+          "title": "רוטב פשוט יותר",
+          "description": "אפשר להשתמש ב־2 כפות סויה + 1 כף דבש או סילאן, בלי קטשופ, חומץ וקורנפלור."
+        },
+        {
+          "title": "שדרוגי הגשה",
+          "description": "אפשר לסיים עם שמן שומשום, בצל ירוק, שומשום קלוי או צ׳ילי/סריראצ׳ה לפי הטעם."
+        }
+      ],
+      "storage": {},
+      "notes": [
+        "3 כפות השמן מחולקות חצי־חצי: 1½ כפות לתפוחי האדמה ו־1½ כפות לצריבת העוף."
+      ],
+      "image": "./images/recipes/chicken-potatoes-stirfry.webp"
+    },
+    {
+      "id": "sirloin-noodles",
+      "name": "נודלס עם סינטה מוקפצת",
+      "category": "בשר",
+      "servings": "4–5 מנות",
+      "tags": [
+        "בשרי",
+        "אסייתי",
+        "מוקפץ",
+        "ירקות בצד"
+      ],
+      "times": {
+        "prep_minutes": 25,
+        "cook_minutes": 15
+      },
+      "ingredient_groups": [
+        {
+          "name": "לבשר",
+          "items": [
+            {
+              "id": "sirloin",
+              "name": "סינטה",
+              "quantity": "600",
+              "unit": "גרם",
+              "display": "כ־600 גרם סינטה, רצועות דקות נגד כיוון הסיבים"
+            },
+            {
+              "id": "marinade_cornstarch",
+              "name": "קורנפלור",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות קורנפלור"
+            },
+            {
+              "id": "marinade_soy",
+              "name": "רוטב סויה",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות רוטב סויה"
+            },
+            {
+              "id": "marinade_sesame",
+              "name": "שמן שומשום",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף שמן שומשום",
+              "optional": true
+            },
+            {
+              "id": "pepper",
+              "name": "פלפל שחור",
+              "display": "מעט פלפל שחור"
+            },
+            {
+              "id": "fry_oil",
+              "name": "שמן לטיגון",
+              "display": "מעט שמן לטיגון"
+            }
+          ]
+        },
+        {
+          "name": "לנודלס",
+          "items": [
+            {
+              "id": "noodles",
+              "name": "נודלס יבשים",
+              "quantity": "400–450",
+              "unit": "גרם",
+              "display": "400–450 גרם נודלס יבשים"
+            },
+            {
+              "id": "noodle_oil",
+              "name": "שמן",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית שמן למניעת הידבקות"
+            }
+          ]
+        },
+        {
+          "name": "לרוטב",
+          "items": [
+            {
+              "id": "soy",
+              "name": "רוטב סויה",
+              "quantity": "5",
+              "unit": "כפות",
+              "display": "5 כפות רוטב סויה"
+            },
+            {
+              "id": "teriyaki",
+              "name": "טריאקי",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות טריאקי"
+            },
+            {
+              "id": "silan",
+              "name": "סילאן",
+              "quantity": "1–2",
+              "unit": "כפות",
+              "display": "1–2 כפות סילאן"
+            },
+            {
+              "id": "sweet_chili",
+              "name": "צ׳ילי מתוק",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף צ׳ילי מתוק"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "2",
+              "unit": "שיניים",
+              "display": "2 שיני שום כתושות"
+            },
+            {
+              "id": "ginger",
+              "name": "ג׳ינג׳ר מגורר",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית ג׳ינג׳ר מגורר",
+              "optional": true
+            },
+            {
+              "id": "water",
+              "name": "מים",
+              "quantity": "1/2",
+              "unit": "כוס",
+              "display": "½ כוס מים"
+            },
+            {
+              "id": "sauce_cornstarch",
+              "name": "קורנפלור",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית קורנפלור"
+            }
+          ]
+        },
+        {
+          "name": "ירקות בצד",
+          "items": [
+            {
+              "id": "vegetables",
+              "name": "גזר / פלפל / ברוקולי / בצל סגול / פטריות / אדממה",
+              "display": "ירקות לבחירה ובכמות הרצויה"
+            },
+            {
+              "id": "veg_oil",
+              "name": "שמן לירקות",
+              "display": "מעט שמן"
+            },
+            {
+              "id": "veg_season",
+              "name": "מלח / סויה / שמן שומשום",
+              "display": "קמצוץ מלח, טיפה סויה וכמה טיפות שמן שומשום",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "משרים את הסינטה",
+          "instruction": "מערבבים 600 גרם סינטה עם 2 כפות קורנפלור, 2 כפות סויה, 1 כף שמן שומשום אופציונלית ומעט פלפל שחור. משאירים 15–20 דקות.",
+          "ingredient_refs": [
+            "sirloin",
+            "marinade_cornstarch",
+            "marinade_soy",
+            "marinade_sesame",
+            "pepper"
+          ],
+          "timer_minutes": 15,
+          "suggest_timer": true,
+          "timer_options": [
+            15,
+            20
+          ]
+        },
+        {
+          "id": 2,
+          "title": "מכינים נודלס",
+          "instruction": "מבשלים 400–450 גרם נודלס לפי הוראות האריזה. מסננים, שוטפים מעט במים קרים ומערבבים עם 1 כפית שמן.",
+          "ingredient_refs": [
+            "noodles",
+            "noodle_oil"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "מכינים ירקות בצד",
+          "instruction": "מקפיצים ירקות לבחירה במעט שמן 4–6 דקות: מתחילים בגזר/ברוקולי, ואחרי 1–2 דקות מוסיפים פלפל/פטריות/בצל. מתבלים בעדינות במלח, סויה או שמן שומשום אם רוצים.",
+          "ingredient_refs": [
+            "vegetables",
+            "veg_oil",
+            "veg_season"
+          ],
+          "timer_minutes": 6
+        },
+        {
+          "id": 4,
+          "title": "צורבים את הסינטה",
+          "instruction": "מחממים ווק חזק מאוד עם מעט שמן וצורבים את 600 גרם הסינטה בכמה נגלות קטנות, בערך דקה–דקה וחצי מכל צד.",
+          "ingredient_refs": [
+            "sirloin",
+            "fry_oil"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "מכינים רוטב",
+          "instruction": "מערבבים 5 כפות סויה, 2 כפות טריאקי, 1–2 כפות סילאן, 1 כף צ׳ילי מתוק, 2 שיני שום, 1 כפית ג׳ינג׳ר אופציונלית, ½ כוס מים ו־1 כפית קורנפלור.",
+          "ingredient_refs": [
+            "soy",
+            "teriyaki",
+            "silan",
+            "sweet_chili",
+            "garlic",
+            "ginger",
+            "water",
+            "sauce_cornstarch"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "בשר → רוטב",
+          "instruction": "מחזירים את כל הסינטה למחבת ושופכים עליה את כל הרוטב. מערבבים 20–40 שניות כדי שהרוטב יתחיל לעטוף את הבשר.",
+          "ingredient_refs": [
+            "sirloin",
+            "soy",
+            "teriyaki",
+            "silan",
+            "sweet_chili",
+            "garlic",
+            "ginger",
+            "water",
+            "sauce_cornstarch"
+          ],
+          "needs": [
+            {
+              "label": "הסינטה הצרובה"
+            },
+            {
+              "label": "הרוטב שהוכן בשלב 5"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "מוסיפים נודלס",
+          "instruction": "מוסיפים 400–450 גרם נודלס מבושלים ומערבבים 1–2 דקות על אש גבוהה. מגישים את הירקות בנפרד או מוסיפים חלק מהם בסוף.",
+          "ingredient_refs": [
+            "noodles",
+            "vegetables"
+          ],
+          "timer_minutes": 2,
+          "needs": [
+            {
+              "label": "הסינטה ברוטב"
+            },
+            {
+              "label": "הנודלס המבושלים"
+            }
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "title": "כמות נודלס",
+          "description": "350 גרם נותנים מנה בשרית יותר; 450 גרם מנה גדולה ומשביעה יותר. בגלל ילדים שאוכלים בעיקר נודלס, השיחה נטתה ל־400–450 גרם."
+        }
+      ],
+      "storage": {},
+      "notes": [],
+      "image": "./images/recipes/sirloin-noodles.webp"
+    },
+    {
+      "id": "zucchini-yogurt-pie",
+      "name": "פשטידת קישואים ויוגורט",
+      "category": "פשטידות ומאפים",
+      "servings": "תבנית 20×30 ס״מ או עגולה 24 ס״מ",
+      "tags": [
+        "חלבי",
+        "צמחוני",
+        "תנור"
+      ],
+      "times": {
+        "prep_minutes": 20,
+        "bake_minutes": "40–50"
+      },
+      "ingredient_groups": [
+        {
+          "name": "מצרכים",
+          "items": [
+            {
+              "id": "zucchini",
+              "name": "קישואים",
+              "quantity": "3–4",
+              "unit": "בינוניים",
+              "display": "3–4 קישואים בינוניים, כ־700 גרם"
+            },
+            {
+              "id": "eggs",
+              "name": "ביצים",
+              "quantity": "2",
+              "display": "2 ביצים"
+            },
+            {
+              "id": "yogurt",
+              "name": "יוגורט",
+              "quantity": "200",
+              "unit": "גרם",
+              "display": "200 גרם יוגורט יווני או 3%–5%"
+            },
+            {
+              "id": "feta",
+              "name": "בולגרית או פטה",
+              "quantity": "100",
+              "unit": "גרם",
+              "display": "100 גרם גבינה בולגרית או פטה",
+              "optional": true
+            },
+            {
+              "id": "flour",
+              "name": "קמח",
+              "quantity": "1/2",
+              "unit": "כוס",
+              "display": "½ כוס קמח"
+            },
+            {
+              "id": "baking_powder",
+              "name": "אבקת אפייה",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית אבקת אפייה"
+            },
+            {
+              "id": "onion",
+              "name": "בצל קטן מטוגן",
+              "quantity": "1",
+              "unit": "קטן",
+              "display": "1 בצל קטן קצוץ ומטוגן",
+              "optional": true
+            },
+            {
+              "id": "olive_oil",
+              "name": "שמן זית",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות שמן זית"
+            },
+            {
+              "id": "herbs",
+              "name": "שמיר / נענע / פטרוזיליה",
+              "quantity": "1",
+              "unit": "חופן",
+              "display": "חופן עשבי תיבול קצוצים"
+            },
+            {
+              "id": "salt_pepper",
+              "name": "מלח ופלפל",
+              "display": "מלח ופלפל לפי הטעם"
+            },
+            {
+              "id": "topping",
+              "name": "שומשום או גבינה מגוררת",
+              "display": "מעט שומשום או גבינה מגוררת מעל",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "סוחטים קישואים",
+          "instruction": "מגררים 3–4 קישואים (כ־700 גרם) וסוחטים היטב את הנוזלים.",
+          "ingredient_refs": [
+            "zucchini"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "בצל אופציונלי",
+          "instruction": "אם משתמשים, מטגנים 1 בצל קטן עד הזהבה ומצננים מעט.",
+          "ingredient_refs": [
+            "onion"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "מערבבים רטובים",
+          "instruction": "טורפים 2 ביצים עם 200 גרם יוגורט ו־2 כפות שמן זית.",
+          "ingredient_refs": [
+            "eggs",
+            "yogurt",
+            "olive_oil"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "מוסיפים ירקות וגבינה",
+          "instruction": "מוסיפים את 700 גרם הקישואים הסחוטים, 1 בצל מטוגן אופציונלי, 100 גרם בולגרית/פטה וחופן עשבי תיבול.",
+          "ingredient_refs": [
+            "zucchini",
+            "onion",
+            "feta",
+            "herbs"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "מוסיפים יבשים",
+          "instruction": "מוסיפים ½ כוס קמח ו־½ כפית אבקת אפייה, מתבלים במלח ופלפל ומערבבים רק עד אחידות.",
+          "ingredient_refs": [
+            "flour",
+            "baking_powder",
+            "salt_pepper"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "אופים",
+          "instruction": "מעבירים לתבנית משומנת, מפזרים מעט שומשום או גבינה מגוררת ואופים ב־180°C כ־40–50 דקות, עד שהפשטידה יציבה וזהובה.",
+          "ingredient_refs": [
+            "topping"
+          ],
+          "timer_minutes": 40,
+          "suggest_timer": true,
+          "timer_options": [
+            40,
+            50
+          ],
+          "needs": [
+            {
+              "label": "בלילת הקישואים המוכנה"
+            },
+            {
+              "ingredient_ref": "topping"
+            }
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "title": "שדרוגים",
+          "description": "אפשר להוסיף 100 גרם גבינה צהובה, חופן זיתים קצוצים, תפוח אדמה מגורר אחד, כפית זעתר או מעט אגוז מוסקט."
+        },
+        {
+          "title": "רוטב יוגורט",
+          "description": "150 גרם יוגורט + שן שום + מעט לימון + שמיר/נענע + מלח ופלפל."
+        }
+      ],
+      "storage": {},
+      "notes": [
+        "אם לקישואים יש מרירות חזקה ולא אופיינית, לא משתמשים בתערובת."
+      ],
+      "image": "./images/recipes/zucchini-yogurt-pie.webp"
+    },
+    {
+      "id": "veal-shank-red-wine-soy",
+      "name": "תבשיל שריר עגל ביין אדום, סויה וסילאן",
+      "category": "בשר",
+      "servings": "6–8 מנות",
+      "tags": [
+        "בשרי",
+        "בישול ארוך",
+        "מתאים לאורז",
+        "מתאים לנודלס"
+      ],
+      "times": {
+        "prep_minutes": 25,
+        "cook_minutes": "150–180"
+      },
+      "ingredient_groups": [
+        {
+          "name": "לבשר ולירקות",
+          "items": [
+            {
+              "id": "veal",
+              "name": "שריר עגל",
+              "quantity": "1",
+              "unit": "ק״ג",
+              "display": "1 ק״ג שריר עגל, קוביות ללא עצם"
+            },
+            {
+              "id": "oil",
+              "name": "שמן",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות שמן"
+            },
+            {
+              "id": "onions",
+              "name": "בצלים",
+              "quantity": "2",
+              "unit": "גדולים",
+              "display": "2 בצלים גדולים, פרוסים"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "5",
+              "unit": "שיניים",
+              "display": "5 שיני שום קצוצות"
+            },
+            {
+              "id": "carrots",
+              "name": "גזרים",
+              "quantity": "2",
+              "display": "2 גזרים, פרוסות עבות"
+            },
+            {
+              "id": "pepper",
+              "name": "גמבה אדומה",
+              "quantity": "1",
+              "display": "1 גמבה אדומה, רצועות עבות"
+            },
+            {
+              "id": "ginger",
+              "name": "ג׳ינג׳ר טחון",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית ג׳ינג׳ר טחון"
+            },
+            {
+              "id": "black_pepper",
+              "name": "פלפל שחור",
+              "display": "מעט פלפל שחור גרוס"
+            }
+          ]
+        },
+        {
+          "name": "לרוטב",
+          "items": [
+            {
+              "id": "wine",
+              "name": "יין אדום יבש",
+              "quantity": "1/2",
+              "unit": "כוס",
+              "display": "½ כוס יין אדום יבש"
+            },
+            {
+              "id": "soy",
+              "name": "רוטב סויה",
+              "quantity": "1/3",
+              "unit": "כוס",
+              "display": "⅓ כוס רוטב סויה"
+            },
+            {
+              "id": "honey",
+              "name": "דבש",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות דבש"
+            },
+            {
+              "id": "silan",
+              "name": "סילאן",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות סילאן"
+            },
+            {
+              "id": "tomato_paste",
+              "name": "רסק עגבניות",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף רסק עגבניות"
+            },
+            {
+              "id": "water",
+              "name": "מים חמים",
+              "quantity": "2–2.5",
+              "unit": "כוסות",
+              "display": "2–2½ כוסות מים חמים או ציר בקר"
+            }
+          ]
+        },
+        {
+          "name": "להגשה",
+          "items": [
+            {
+              "id": "sesame",
+              "name": "שומשום קלוי",
+              "display": "שומשום קלוי",
+              "optional": true
+            },
+            {
+              "id": "green_onion",
+              "name": "בצל ירוק",
+              "display": "בצל ירוק קצוץ",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "צורבים בשר",
+          "instruction": "מחממים סיר ברזל היטב, מוסיפים 2 כפות שמן וצורבים 1 ק״ג שריר עגל ב־2–3 נגלות. משאירים כל צד 2–3 דקות לקבלת השחמה ומוציאים לצלחת.",
+          "ingredient_refs": [
+            "oil",
+            "veal"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "מטגנים בצל",
+          "instruction": "באותו סיר מטגנים 2 בצלים גדולים 8–10 דקות עד ריכוך והזהבה. מוסיפים 5 שיני שום ו־½ כפית ג׳ינג׳ר טחון ומערבבים כחצי דקה.",
+          "ingredient_refs": [
+            "onions",
+            "garlic",
+            "ginger"
+          ],
+          "timer_minutes": 10
+        },
+        {
+          "id": 3,
+          "title": "רסק",
+          "instruction": "מוסיפים 1 כף רסק עגבניות ומטגנים כדקה.",
+          "ingredient_refs": [
+            "tomato_paste"
+          ],
+          "timer_minutes": 1
+        },
+        {
+          "id": 4,
+          "title": "יין",
+          "instruction": "מחזירים את 1 ק״ג הבשר, מוסיפים ½ כוס יין אדום ומגרדים את תחתית הסיר. מרתיחים 2–3 דקות.",
+          "ingredient_refs": [
+            "veal",
+            "wine"
+          ],
+          "timer_minutes": 3,
+          "needs": [
+            {
+              "label": "הבשר הצרוב"
+            },
+            {
+              "ingredient_ref": "wine"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "רוטב",
+          "instruction": "מוסיפים ⅓ כוס סויה, 2 כפות דבש, 2 כפות סילאן, מעט פלפל שחור ו־2–2½ כוסות מים חמים. מביאים לרתיחה עדינה. לא מוסיפים מלח לפני הטעימה בסוף.",
+          "ingredient_refs": [
+            "soy",
+            "honey",
+            "silan",
+            "black_pepper",
+            "water"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "בישול ארוך",
+          "instruction": "מכסים ומבשלים כשעתיים ב־160°C בתנור או על הלהבה הנמוכה ביותר. על הכיריים מערבבים בעדינות כל 30–40 דקות ובודקים נוזלים. אחרי כשעתיים עוברים לשלב הוספת הירקות.",
+          "ingredient_refs": [
+            "veal"
+          ],
+          "timer_minutes": 120,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "התבשיל שבסיר"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "מוסיפים ירקות",
+          "instruction": "מוסיפים 2 גזרים ו־1 גמבה אדומה ומבשלים עוד 45–60 דקות, עד שהבשר רך מאוד והרוטב עשיר.",
+          "ingredient_refs": [
+            "carrots",
+            "pepper"
+          ],
+          "timer_minutes": 45,
+          "suggest_timer": true,
+          "timer_options": [
+            45,
+            60
+          ],
+          "needs": [
+            {
+              "label": "התבשיל אחרי כשעתיים"
+            },
+            {
+              "ingredient_ref": "carrots"
+            },
+            {
+              "ingredient_ref": "pepper"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "מסיימים",
+          "instruction": "טועמים ומתקנים תיבול. אם הרוטב דליל, מסירים מכסה ל־10–15 דקות; אם סמיך מדי, מוסיפים מעט מים חמים. נותנים לתבשיל לנוח 15–20 דקות.",
+          "ingredient_refs": [
+            "water"
+          ],
+          "needs": [
+            {
+              "label": "התבשיל המוכן"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "מגישים",
+          "instruction": "מגישים את התבשיל עם אורז; אם יש, מפזרים מעל שומשום קלוי ובצל ירוק קצוץ.",
+          "ingredient_refs": [
+            "sesame",
+            "green_onion"
+          ]
+        }
+      ],
+      "variations": [],
+      "storage": {},
+      "notes": [
+        "שומן דק ורקמת חיבור בצדדי השריר נשמרים לבישול; גושי שומן גדולים מאוד אפשר לקצץ חלקית."
+      ],
+      "image": "./images/recipes/veal-shank-red-wine-soy.webp"
+    },
+    {
+      "id": "basmati-rice",
+      "name": "אורז בסמטי",
+      "category": "תוספות",
+      "servings": "כ־6 מנות",
+      "tags": [
+        "פרווה",
+        "תוספת",
+        "סיר"
+      ],
+      "times": {
+        "prep_minutes": 5,
+        "cook_minutes": 22
+      },
+      "ingredient_groups": [
+        {
+          "name": "מצרכים",
+          "items": [
+            {
+              "id": "rice",
+              "name": "אורז בסמטי",
+              "quantity": "2",
+              "unit": "כוסות",
+              "display": "2 כוסות אורז בסמטי"
+            },
+            {
+              "id": "water",
+              "name": "מים",
+              "quantity": "3",
+              "unit": "כוסות",
+              "display": "3 כוסות מים"
+            },
+            {
+              "id": "oil",
+              "name": "שמן",
+              "quantity": "1–2",
+              "unit": "כפות",
+              "display": "1–2 כפות שמן",
+              "optional": true
+            },
+            {
+              "id": "salt",
+              "name": "מלח",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית מלח"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "שוטפים",
+          "instruction": "שוטפים 2 כוסות אורז בסמטי 3–4 פעמים עד שהמים כמעט צלולים. אם יש זמן, משרים 20 דקות ומסננים.",
+          "ingredient_refs": [
+            "rice"
+          ],
+          "timer_minutes": 20
+        },
+        {
+          "id": 2,
+          "title": "טיגון קצר",
+          "instruction": "מחממים 1–2 כפות שמן בסיר ומטגנים את 2 כוסות האורז כדקה, אם בוחרים להשתמש בשמן.",
+          "ingredient_refs": [
+            "oil",
+            "rice"
+          ],
+          "timer_minutes": 1
+        },
+        {
+          "id": 3,
+          "title": "בישול",
+          "instruction": "מוסיפים 3 כוסות מים ו־½ כפית מלח ומביאים לרתיחה. מנמיכים לאש הכי נמוכה, מכסים ומבשלים 12 דקות.",
+          "ingredient_refs": [
+            "water",
+            "salt"
+          ],
+          "timer_minutes": 12,
+          "suggest_timer": true
+        },
+        {
+          "id": 4,
+          "title": "מנוחה",
+          "instruction": "מכבים את האש ומשאירים את הסיר סגור עוד 10 דקות. פותחים ומאווררים בעדינות במזלג.",
+          "ingredient_refs": [
+            "rice"
+          ],
+          "timer_minutes": 10,
+          "suggest_timer": true
+        }
+      ],
+      "variations": [],
+      "storage": {},
+      "notes": [],
+      "image": "./images/recipes/basmati-rice.webp"
+    },
+    {
+      "id": "bolognese",
+      "name": "רוטב בולונז עשיר",
+      "category": "בשר",
+      "servings": "10–12 מנות",
+      "tags": [
+        "בשרי",
+        "מתאים להקפאה",
+        "ילדים",
+        "פסטה"
+      ],
+      "times": {
+        "prep_minutes": 20,
+        "cook_minutes": "90–100"
+      },
+      "ingredient_groups": [
+        {
+          "name": "בשר וירקות",
+          "items": [
+            {
+              "id": "meat",
+              "name": "בשר בקר טחון",
+              "quantity": "1.2",
+              "unit": "ק״ג",
+              "display": "1.2 ק״ג בשר בקר טחון"
+            },
+            {
+              "id": "onions",
+              "name": "בצלים",
+              "quantity": "2",
+              "unit": "גדולים",
+              "display": "2 בצלים גדולים"
+            },
+            {
+              "id": "carrots",
+              "name": "גזרים",
+              "quantity": "2",
+              "display": "2 גזרים"
+            },
+            {
+              "id": "celery",
+              "name": "סלרי",
+              "quantity": "2",
+              "unit": "גבעולים",
+              "display": "2 גבעולי סלרי",
+              "optional": true
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "5–6",
+              "unit": "שיניים",
+              "display": "5–6 שיני שום"
+            },
+            {
+              "id": "olive_oil",
+              "name": "שמן זית",
+              "quantity": "3",
+              "unit": "כפות",
+              "display": "3 כפות שמן זית"
+            }
+          ]
+        },
+        {
+          "name": "עגבניות ונוזלים",
+          "items": [
+            {
+              "id": "crushed_tomatoes",
+              "name": "עגבניות מרוסקות",
+              "quantity": "800",
+              "unit": "גרם",
+              "display": "800 גרם עגבניות מרוסקות"
+            },
+            {
+              "id": "fresh_tomatoes",
+              "name": "עגבניות טריות",
+              "quantity": "2–3",
+              "display": "2–3 עגבניות טריות מגוררות או טחונות"
+            },
+            {
+              "id": "tomato_paste",
+              "name": "רסק עגבניות",
+              "quantity": "3–4",
+              "unit": "כפות",
+              "display": "3–4 כפות רסק עגבניות"
+            },
+            {
+              "id": "wine",
+              "name": "יין אדום",
+              "quantity": "1/2",
+              "unit": "כוס",
+              "display": "½ כוס יין אדום"
+            },
+            {
+              "id": "water",
+              "name": "מים או ציר בקר",
+              "quantity": "1/2–1",
+              "unit": "כוס",
+              "display": "½–1 כוס מים או ציר בקר"
+            }
+          ]
+        },
+        {
+          "name": "תיבול",
+          "items": [
+            {
+              "id": "salt",
+              "name": "מלח",
+              "quantity": "2",
+              "unit": "כפיות",
+              "display": "עד 2 כפיות מלח, מתחילים בפחות"
+            },
+            {
+              "id": "pepper",
+              "name": "פלפל שחור",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית פלפל שחור"
+            },
+            {
+              "id": "paprika",
+              "name": "פפריקה מתוקה",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית פפריקה מתוקה"
+            },
+            {
+              "id": "oregano",
+              "name": "אורגנו יבש",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית אורגנו יבש"
+            },
+            {
+              "id": "basil",
+              "name": "בזיליקום יבש",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית בזיליקום יבש"
+            },
+            {
+              "id": "bay",
+              "name": "עלי דפנה",
+              "quantity": "2",
+              "display": "2 עלי דפנה",
+              "optional": true
+            },
+            {
+              "id": "sugar",
+              "name": "סוכר",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית סוכר, רק אם חמצמץ",
+              "optional": true
+            },
+            {
+              "id": "umami",
+              "name": "ווסטרשייר או סויה",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית ווסטרשייר או 1 כפית סויה",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "טוחנים ירקות",
+          "instruction": "טוחנים במעבד מזון 2 בצלים, 2 גזרים ו־2 גבעולי סלרי אופציונליים לקיצוץ דק מאוד. את 5–6 שיני השום שומרים לשלב הבא.",
+          "ingredient_refs": [
+            "onions",
+            "carrots",
+            "celery",
+            "garlic"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "מטגנים ירקות",
+          "instruction": "מחממים 3 כפות שמן זית ומטגנים את הירקות הטחונים 10–15 דקות, עד שהנוזלים מתאדים והם מתחילים להזהיב. מוסיפים 5–6 שיני שום לחצי דקה.",
+          "ingredient_refs": [
+            "olive_oil",
+            "onions",
+            "carrots",
+            "celery",
+            "garlic"
+          ],
+          "timer_minutes": 15
+        },
+        {
+          "id": 3,
+          "title": "משחימים בשר",
+          "instruction": "מוסיפים 1.2 ק״ג בשר טחון, מפוררים ומאפשרים לו להשחים 10–15 דקות בלי לערבב כל הזמן.",
+          "ingredient_refs": [
+            "meat"
+          ],
+          "timer_minutes": 15
+        },
+        {
+          "id": 4,
+          "title": "מטגנים רסק",
+          "instruction": "מוסיפים 3–4 כפות רסק עגבניות ומטגנים 2–3 דקות.",
+          "ingredient_refs": [
+            "tomato_paste"
+          ],
+          "timer_minutes": 3
+        },
+        {
+          "id": 5,
+          "title": "מצמצמים יין",
+          "instruction": "מוסיפים ½ כוס יין אדום ומבשלים 2–3 דקות.",
+          "ingredient_refs": [
+            "wine"
+          ],
+          "timer_minutes": 3
+        },
+        {
+          "id": 6,
+          "title": "מוסיפים רוטב ותבלינים",
+          "instruction": "מוסיפים 800 גרם עגבניות מרוסקות, 2–3 עגבניות טריות, ½–1 כוס מים/ציר, עד 2 כפיות מלח, 1 כפית פלפל, 1 כפית פפריקה, 1 כפית אורגנו, 1 כפית בזיליקום, 2 עלי דפנה אופציונליים ו־1 כפית ווסטרשייר או סויה אופציונלית. מערבבים.",
+          "ingredient_refs": [
+            "crushed_tomatoes",
+            "fresh_tomatoes",
+            "water",
+            "salt",
+            "pepper",
+            "paprika",
+            "oregano",
+            "basil",
+            "bay",
+            "umami"
+          ]
+        },
+        {
+          "id": 7,
+          "title": "מבשלים",
+          "instruction": "מביאים לרתיחה, מנמיכים לאש נמוכה, מכסים חלקית ומבשלים כשעה. מערבבים כל 20 דקות; אם סמיך מדי מוסיפים מעט מהטווח של ½–1 כוס המים.",
+          "ingredient_refs": [
+            "water"
+          ],
+          "timer_minutes": 60,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "רוטב הבולונז שבסיר"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "מתקנים",
+          "instruction": "טועמים. אם חמצמץ מוסיפים ½ כפית סוכר; מתקנים מלח ופלפל. אם נוזלי מדי מסירים מכסה ל־10 הדקות האחרונות.",
+          "ingredient_refs": [
+            "sugar",
+            "salt",
+            "pepper"
+          ],
+          "timer_minutes": 10,
+          "needs": [
+            {
+              "label": "רוטב הבולונז המוכן"
+            }
+          ]
+        }
+      ],
+      "variations": [],
+      "storage": {
+        "freezer": "לקרר לגמרי ולחלק לקופסאות של 300–500 גרם; אפשר להקפיא עד כ־3 חודשים.",
+        "reheat": "להפשיר לילה במקרר או לחמם בסיר על אש נמוכה עם מעט מים."
+      },
+      "notes": [],
+      "image": "./images/recipes/bolognese.webp"
+    },
+    {
+      "id": "roasted-vegetables",
+      "name": "ירקות צלויים בתנור",
+      "category": "תוספות",
+      "servings": "תבנית גדולה",
+      "tags": [
+        "פרווה",
+        "ירקות",
+        "תנור",
+        "מתאים לדגים"
+      ],
+      "times": {
+        "prep_minutes": 20,
+        "bake_minutes": "40–45"
+      },
+      "ingredient_groups": [
+        {
+          "name": "גרסה ים־תיכונית טרייה",
+          "items": [
+            {
+              "id": "eggplant",
+              "name": "חציל",
+              "quantity": "1",
+              "unit": "גדול",
+              "display": "1 חציל גדול"
+            },
+            {
+              "id": "pumpkin",
+              "name": "דלעת",
+              "quantity": "300–500",
+              "unit": "גרם",
+              "display": "300–500 גרם דלעת"
+            },
+            {
+              "id": "bell_peppers",
+              "name": "גמבות",
+              "quantity": "2–3",
+              "display": "2–3 גמבות"
+            },
+            {
+              "id": "shushka",
+              "name": "פלפלי שושקה",
+              "quantity": "1–2",
+              "display": "1–2 פלפלי שושקה"
+            },
+            {
+              "id": "red_onion",
+              "name": "בצל סגול",
+              "quantity": "1–2",
+              "display": "1–2 בצלים סגולים"
+            },
+            {
+              "id": "cherry",
+              "name": "עגבניות שרי",
+              "quantity": "2",
+              "unit": "חופנים",
+              "display": "2 חופנים עגבניות שרי"
+            },
+            {
+              "id": "garlic_head",
+              "name": "ראש שום",
+              "quantity": "1",
+              "display": "1 ראש שום שלם"
+            },
+            {
+              "id": "crushed_garlic",
+              "name": "שום כתוש",
+              "quantity": "2–3",
+              "unit": "שיניים",
+              "display": "2–3 שיני שום כתושות"
+            },
+            {
+              "id": "olive_oil",
+              "name": "שמן זית",
+              "quantity": "4–5",
+              "unit": "כפות",
+              "display": "4–5 כפות שמן זית + כפית לראש השום"
+            },
+            {
+              "id": "salt",
+              "name": "מלח",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית מלח + קורט לראש השום"
+            },
+            {
+              "id": "pepper",
+              "name": "פלפל שחור",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית פלפל שחור + מעט לראש השום"
+            },
+            {
+              "id": "paprika",
+              "name": "פפריקה מתוקה",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית פפריקה מתוקה"
+            },
+            {
+              "id": "cumin",
+              "name": "כמון",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית כמון",
+              "optional": true
+            },
+            {
+              "id": "herb",
+              "name": "טימין או אורגנו יבש",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית טימין או אורגנו"
+            },
+            {
+              "id": "lemon",
+              "name": "מיץ לימון",
+              "display": "מעט מיץ לימון לסיום",
+              "optional": true
+            },
+            {
+              "id": "parsley",
+              "name": "פטרוזיליה / בזיליקום",
+              "display": "פטרוזיליה או בזיליקום לסיום",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "חותכים",
+          "instruction": "חותכים 1 חציל לקוביות גדולות, 300–500 גרם דלעת לקוביות 2–3 ס״מ, 2–3 גמבות ו־1–2 שושקה לרצועות, ו־1–2 בצלים סגולים לפלחים. משאירים 2 חופנים שרי בצד.",
+          "ingredient_refs": [
+            "eggplant",
+            "pumpkin",
+            "bell_peppers",
+            "shushka",
+            "red_onion",
+            "cherry"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "מתבלים",
+          "instruction": "מערבבים את הירקות החתוכים עם 4–5 כפות שמן זית, 2–3 שיני שום כתושות, 1 כפית מלח, ½ כפית פלפל, 1 כפית פפריקה, ½ כפית כמון אופציונלית ו־½ כפית טימין/אורגנו.",
+          "ingredient_refs": [
+            "olive_oil",
+            "crushed_garlic",
+            "salt",
+            "pepper",
+            "paprika",
+            "cumin",
+            "herb"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "מכינים ראש שום",
+          "instruction": "חותכים כחצי ס״מ מהחלק העליון של 1 ראש שום, מזלפים עליו 1 כפית שמן זית, קורט מלח ומעט פלפל. עוטפים ברפיון בנייר כסף או מניחים חשוף.",
+          "ingredient_refs": [
+            "garlic_head",
+            "olive_oil",
+            "salt",
+            "pepper"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "אפייה ראשונה",
+          "instruction": "אופים את הירקות וראש השום ב־210°C טורבו או 220°C רגיל כ־30 דקות.",
+          "ingredient_refs": [
+            "eggplant",
+            "pumpkin",
+            "bell_peppers",
+            "shushka",
+            "red_onion",
+            "garlic_head"
+          ],
+          "timer_minutes": 30,
+          "suggest_timer": true
+        },
+        {
+          "id": 5,
+          "title": "מוסיפים שרי",
+          "instruction": "מוסיפים 2 חופנים עגבניות שרי וממשיכים לאפות עוד 10–15 דקות, עד שהחציל רך והפלפלים חרוכים קלות.",
+          "ingredient_refs": [
+            "cherry"
+          ],
+          "timer_minutes": 10,
+          "suggest_timer": true,
+          "timer_options": [
+            10,
+            15
+          ],
+          "needs": [
+            {
+              "label": "הירקות אחרי האפייה הראשונה"
+            },
+            {
+              "ingredient_ref": "cherry"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "מסיימים",
+          "instruction": "סוחטים מעט מיץ לימון ומפזרים פטרוזיליה או בזיליקום. את שיני השום הצלוי אפשר לסחוט מתוך הראש ולערבב בירקות או להגיש בצד.",
+          "ingredient_refs": [
+            "lemon",
+            "parsley",
+            "garlic_head"
+          ],
+          "needs": [
+            {
+              "label": "הירקות הצלויים"
+            },
+            {
+              "ingredient_ref": "lemon"
+            },
+            {
+              "ingredient_ref": "parsley"
+            }
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "title": "מגש כרובית–ברוקולי–גזר",
+          "description": "1 כרובית קטנה, 1 ברוקולי, 3–4 גזרים, 2 קישואים, 1 בצל סגול ו־2 פלפלים; 4–5 כפות שמן זית, 4–5 שיני שום, 1 כפית מלח, ½ כפית פלפל, 1 כפית פפריקה ו־1 כפית טימין/אורגנו. אופים 35–45 דקות ב־200–210°C והופכים אחרי כ־20 דקות."
+        },
+        {
+          "title": "מלקט ירקות קפואים",
+          "description": "לא מפשירים. מתבלים ב־3–4 כפות שמן זית, 1 כפית מלח, ½ כפית פלפל, 1 כפית פפריקה, 1 כפית אבקת שום או 2–3 שיני שום, וטימין/אורגנו אופציונלי. אופים 30–40 דקות ב־210°C; הופכים באמצע. אם יש הרבה נוזלים, ממשיכים עד אידוי; אפשר 5 דקות ב־220°C בסוף."
+        },
+        {
+          "title": "מתיקות עדינה",
+          "description": "אפשר להוסיף מעט סילאן או 1 כפית בלסמי."
+        }
+      ],
+      "storage": {},
+      "notes": [],
+      "image": "./images/recipes/roasted-vegetables.webp"
+    },
+    {
+      "id": "chicken-noodles",
+      "name": "פילה עוף עם נודלס בסגנון אסייתי",
+      "category": "עוף",
+      "servings": "4–5 מנות",
+      "tags": [
+        "בשרי",
+        "אסייתי",
+        "מוקפץ",
+        "ילדים"
+      ],
+      "times": {
+        "prep_minutes": 15,
+        "cook_minutes": 15
+      },
+      "ingredient_groups": [
+        {
+          "name": "עיקר המנה",
+          "items": [
+            {
+              "id": "chicken",
+              "name": "פילה עוף",
+              "quantity": "700–800",
+              "unit": "גרם",
+              "display": "700–800 גרם פילה עוף, רצועות"
+            },
+            {
+              "id": "noodles",
+              "name": "נודלס",
+              "quantity": "300–350",
+              "unit": "גרם",
+              "display": "300–350 גרם נודלס"
+            },
+            {
+              "id": "oil",
+              "name": "שמן",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות שמן"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "2",
+              "unit": "שיניים",
+              "display": "2 שיני שום כתושות"
+            },
+            {
+              "id": "pepper",
+              "name": "גמבה",
+              "quantity": "1",
+              "display": "1 גמבה, רצועות"
+            },
+            {
+              "id": "carrots",
+              "name": "גזרים",
+              "quantity": "1–2",
+              "display": "1–2 גזרים, רצועות דקות"
+            },
+            {
+              "id": "onion",
+              "name": "בצל",
+              "quantity": "1",
+              "display": "1 בצל חתוך דק",
+              "optional": true
+            }
+          ]
+        },
+        {
+          "name": "רוטב",
+          "items": [
+            {
+              "id": "soy",
+              "name": "רוטב סויה",
+              "quantity": "5",
+              "unit": "כפות",
+              "display": "5 כפות רוטב סויה"
+            },
+            {
+              "id": "silan",
+              "name": "סילאן או דבש",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות סילאן או דבש"
+            },
+            {
+              "id": "sweet_chili",
+              "name": "צ׳ילי מתוק",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף צ׳ילי מתוק"
+            },
+            {
+              "id": "sesame_oil",
+              "name": "שמן שומשום",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף שמן שומשום",
+              "optional": true
+            },
+            {
+              "id": "ginger",
+              "name": "ג׳ינג׳ר טחון",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית ג׳ינג׳ר טחון"
+            },
+            {
+              "id": "water",
+              "name": "מים",
+              "quantity": "1/2",
+              "unit": "כוס",
+              "display": "½ כוס מים"
+            },
+            {
+              "id": "cornstarch",
+              "name": "קורנפלור",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית קורנפלור"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מכינים רוטב",
+          "instruction": "מערבבים 5 כפות סויה, 2 כפות סילאן/דבש, 1 כף צ׳ילי מתוק, 1 כף שמן שומשום אופציונלית, ½ כפית ג׳ינג׳ר, ½ כוס מים ו־1 כפית קורנפלור.",
+          "ingredient_refs": [
+            "soy",
+            "silan",
+            "sweet_chili",
+            "sesame_oil",
+            "ginger",
+            "water",
+            "cornstarch"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "מבשלים נודלס",
+          "instruction": "מבשלים 300–350 גרם נודלס לפי הוראות האריזה, ומוציאים כדקה לפני ריכוך מלא. מסננים ושוטפים קצרות במים קרים.",
+          "ingredient_refs": [
+            "noodles"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "צורבים עוף",
+          "instruction": "מחממים 1 כף מתוך 2 כפות השמן בווק. צורבים 700–800 גרם פילה עוף 2–3 דקות, הופכים וממשיכים 2–3 דקות עד שכמעט מוכן. מוציאים לצלחת.",
+          "ingredient_refs": [
+            "oil",
+            "chicken"
+          ],
+          "timer_minutes": 6
+        },
+        {
+          "id": 4,
+          "title": "מקפיצים ירקות",
+          "instruction": "מוסיפים את הכף הנותרת מתוך 2 כפות השמן, 1–2 גזרים, 1 גמבה ו־1 בצל אופציונלי ומקפיצים כ־4 דקות. מוסיפים 2 שיני שום לעוד חצי דקה.",
+          "ingredient_refs": [
+            "oil",
+            "carrots",
+            "pepper",
+            "onion",
+            "garlic"
+          ],
+          "timer_minutes": 5
+        },
+        {
+          "id": 5,
+          "title": "רוטב ועוף",
+          "instruction": "מחזירים את העוף למחבת, יוצקים את כל הרוטב ומבשלים 1–2 דקות עד שמתחיל להסמיך.",
+          "ingredient_refs": [
+            "chicken",
+            "soy",
+            "silan",
+            "sweet_chili",
+            "sesame_oil",
+            "ginger",
+            "water",
+            "cornstarch"
+          ],
+          "timer_minutes": 2,
+          "needs": [
+            {
+              "label": "העוף הצרוב"
+            },
+            {
+              "label": "הרוטב שהוכן בשלב 1"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "נודלס",
+          "instruction": "מוסיפים 300–350 גרם נודלס מבושלים ומערבבים 2–3 דקות עד שהכול מצופה והעוף מבושל לחלוטין. אם סמיך מדי מוסיפים מעט מים.",
+          "ingredient_refs": [
+            "noodles",
+            "water"
+          ],
+          "timer_minutes": 3,
+          "needs": [
+            {
+              "label": "העוף ברוטב"
+            },
+            {
+              "label": "הנודלס המבושלים"
+            },
+            {
+              "ingredient_ref": "water"
+            }
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "title": "ירקות בצד",
+          "description": "אפשר להכין את העוף והנודלס יחד ואת הירקות במחבת נפרדת עם מעט מהרוטב, כך שכל אחד מוסיף ירקות לעצמו."
+        }
+      ],
+      "storage": {},
+      "notes": [],
+      "image": "./images/recipes/chicken-noodles.webp"
+    },
+    {
+      "id": "meat-filo-roll",
+      "name": "פילו ממולא בבשר",
+      "category": "בשר",
+      "servings": "כ־8 מנות",
+      "tags": [
+        "בשרי",
+        "מאפה",
+        "תנור",
+        "אירוח"
+      ],
+      "times": {
+        "prep_minutes": 30,
+        "bake_minutes": "25–28",
+        "rest_minutes": "5–10"
+      },
+      "ingredient_groups": [
+        {
+          "name": "מלית",
+          "items": [
+            {
+              "id": "meat",
+              "name": "בשר בקר טחון",
+              "quantity": "650",
+              "unit": "גרם",
+              "display": "650 גרם בשר בקר טחון"
+            },
+            {
+              "id": "onions",
+              "name": "בצלים",
+              "quantity": "2",
+              "unit": "גדולים",
+              "display": "2 בצלים גדולים קצוצים דק"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "3",
+              "unit": "שיניים",
+              "display": "3 שיני שום כתושות"
+            },
+            {
+              "id": "olive_oil_fill",
+              "name": "שמן זית",
+              "quantity": "2–3",
+              "unit": "כפות",
+              "display": "2–3 כפות שמן זית למלית"
+            },
+            {
+              "id": "salt",
+              "name": "מלח",
+              "quantity": "1.25",
+              "unit": "כפיות",
+              "display": "1¼ כפיות מלח, או לפי הטעם"
+            },
+            {
+              "id": "pepper",
+              "name": "פלפל שחור",
+              "quantity": "3/4",
+              "unit": "כפית",
+              "display": "¾ כפית פלפל שחור"
+            },
+            {
+              "id": "paprika",
+              "name": "פפריקה מתוקה",
+              "quantity": "1.5",
+              "unit": "כפיות",
+              "display": "1½ כפיות פפריקה מתוקה"
+            },
+            {
+              "id": "cumin",
+              "name": "כמון",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית כמון"
+            },
+            {
+              "id": "baharat",
+              "name": "בהרט",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית בהרט"
+            },
+            {
+              "id": "parsley",
+              "name": "פטרוזיליה",
+              "quantity": "1",
+              "unit": "חופן",
+              "display": "חופן נדיב פטרוזיליה קצוצה"
+            },
+            {
+              "id": "pine_nuts",
+              "name": "צנוברים קלויים",
+              "display": "חופן צנוברים קלויים",
+              "optional": true
+            },
+            {
+              "id": "silan",
+              "name": "סילאן",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף סילאן",
+              "optional": true
+            }
+          ]
+        },
+        {
+          "name": "פילו",
+          "items": [
+            {
+              "id": "phyllo",
+              "name": "דפי פילו מקוררים",
+              "quantity": "1",
+              "unit": "חבילה",
+              "display": "1 חבילת דפי פילו מקוררים"
+            },
+            {
+              "id": "olive_oil_phyllo",
+              "name": "שמן זית",
+              "display": "שמן זית להברשה בין הדפים ומעל"
+            },
+            {
+              "id": "sesame",
+              "name": "שומשום או קצח",
+              "display": "שומשום או קצח לפיזור",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מטגנים בצל",
+          "instruction": "מחממים 2–3 כפות שמן זית ומטגנים 2 בצלים גדולים 10–12 דקות עד זהובים ומתוקים.",
+          "ingredient_refs": [
+            "olive_oil_fill",
+            "onions"
+          ],
+          "timer_minutes": 12
+        },
+        {
+          "id": 2,
+          "title": "מבשלים מלית",
+          "instruction": "מוסיפים 3 שיני שום לדקה, ואז 650 גרם בשר. מתבלים ב־1¼ כפיות מלח, ¾ כפית פלפל, 1½ כפיות פפריקה, ½ כפית כמון ו־½ כפית בהרט. מבשלים עד שכמעט אין נוזלים. אם רוצים מוסיפים 1 כף סילאן.",
+          "ingredient_refs": [
+            "garlic",
+            "meat",
+            "salt",
+            "pepper",
+            "paprika",
+            "cumin",
+            "baharat",
+            "silan"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "מסיימים ומקררים",
+          "instruction": "מוסיפים חופן פטרוזיליה וחופן צנוברים אופציונלי, מערבבים ומצננים את המלית לחלוטין לפני המילוי.",
+          "ingredient_refs": [
+            "parsley",
+            "pine_nuts"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "מכינים פילו",
+          "instruction": "מוציאים 1 חבילת פילו מהמקרר כ־15–20 דקות לפני העבודה. עובדים עם 2 דפים לכל רולדה, מברישים שכבה דקה של שמן זית בין הדפים. את הדפים שלא בשימוש מכסים במגבת לחה.",
+          "ingredient_refs": [
+            "phyllo",
+            "olive_oil_phyllo"
+          ],
+          "timer_minutes": 20
+        },
+        {
+          "id": 5,
+          "title": "ממלאים ומגלגלים",
+          "instruction": "מניחים פס נדיב מהמלית לאורך הקצה, מקפלים את הצדדים ומגלגלים. מניחים כשהתפר למטה, מברישים בשמן זית ומפזרים שומשום/קצח אם רוצים.",
+          "ingredient_refs": [
+            "meat",
+            "phyllo",
+            "olive_oil_phyllo",
+            "sesame"
+          ],
+          "needs": [
+            {
+              "label": "מלית הבשר המצוננת"
+            },
+            {
+              "ingredient_ref": "phyllo"
+            },
+            {
+              "ingredient_ref": "olive_oil_phyllo"
+            },
+            {
+              "ingredient_ref": "sesame"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "אופים",
+          "instruction": "אופים ב־190°C רגיל כ־25–28 דקות, עד שהחלק העליון והתחתון זהובים ופריכים.",
+          "ingredient_refs": [
+            "phyllo"
+          ],
+          "timer_minutes": 25,
+          "suggest_timer": true,
+          "timer_options": [
+            25,
+            28
+          ],
+          "needs": [
+            {
+              "label": "הרולדות הממולאות"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "מנוחה וחיתוך",
+          "instruction": "נותנים לרולדות לנוח 5–10 דקות ואז חותכים בסכין משוננת. עדיף לא לחתוך עד המלית לפני האפייה; אפשר לכל היותר חריץ רדוד בשכבת הפילו העליונה.",
+          "ingredient_refs": [
+            "phyllo"
+          ],
+          "timer_minutes": 5,
+          "suggest_timer": true,
+          "timer_options": [
+            5,
+            10
+          ],
+          "needs": [
+            {
+              "label": "הרולדות האפויות"
+            }
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "title": "יותר פריך",
+          "description": "אפשר להשתמש ב־3 דפי פילו לרולדה במקום 2."
+        },
+        {
+          "title": "הכנה מראש",
+          "description": "אפשר להרכיב ולשמור במקרר עד 24 שעות לפני האפייה. אפשר גם להקפיא ולאפות מהמקפיא; מוסיפים כ־10 דקות לזמן האפייה ובודקים שהפילו זהוב ופריך."
+        }
+      ],
+      "storage": {},
+      "notes": [
+        "במנה בשרית משתמשים בשמן זית ולא בחמאה."
+      ],
+      "image": "./images/recipes/meat-filo-roll.webp"
+    },
+    {
+      "id": "lemon-chicken-white-wine",
+      "name": "חזה עוף בלימון ויין לבן",
+      "category": "עוף",
+      "servings": "כ־4 מנות",
+      "tags": [
+        "בשרי",
+        "מחבת",
+        "מתאים להכנה מראש"
+      ],
+      "times": {
+        "prep_minutes": 10,
+        "cook_minutes": 10
+      },
+      "ingredient_groups": [
+        {
+          "name": "לעוף",
+          "items": [
+            {
+              "id": "chicken",
+              "name": "חזה עוף",
+              "quantity": "700",
+              "unit": "גרם",
+              "display": "700 גרם חזה עוף פרוס דק"
+            },
+            {
+              "id": "oil_sear",
+              "name": "שמן זית",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות שמן זית לצריבה"
+            },
+            {
+              "id": "coat_cornstarch",
+              "name": "קורנפלור",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף קורנפלור לציפוי"
+            },
+            {
+              "id": "salt",
+              "name": "מלח",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית מלח"
+            },
+            {
+              "id": "pepper",
+              "name": "פלפל שחור",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית פלפל שחור"
+            },
+            {
+              "id": "paprika",
+              "name": "פפריקה מתוקה",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית פפריקה מתוקה"
+            }
+          ]
+        },
+        {
+          "name": "לרוטב",
+          "items": [
+            {
+              "id": "oil_sauce",
+              "name": "שמן זית",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות שמן זית לרוטב"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "4",
+              "unit": "שיניים",
+              "display": "4 שיני שום קצוצות"
+            },
+            {
+              "id": "wine",
+              "name": "יין לבן יבש",
+              "quantity": "1/3",
+              "unit": "כוס",
+              "display": "⅓ כוס (80 מ״ל) יין לבן יבש"
+            },
+            {
+              "id": "lemon",
+              "name": "מיץ לימון",
+              "quantity": "4",
+              "unit": "כפות",
+              "display": "מיץ מלימון גדול, כ־4 כפות"
+            },
+            {
+              "id": "zest",
+              "name": "גרידת לימון",
+              "quantity": "1/2",
+              "unit": "לימון",
+              "display": "גרידה מחצי לימון",
+              "optional": true
+            },
+            {
+              "id": "water",
+              "name": "מים או ציר עוף",
+              "quantity": "1/2",
+              "unit": "כוס",
+              "display": "½ כוס (120 מ״ל) מים או ציר עוף"
+            },
+            {
+              "id": "honey",
+              "name": "דבש או סילאן",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית דבש או סילאן"
+            },
+            {
+              "id": "mustard",
+              "name": "חרדל דיז׳ון",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית חרדל דיז׳ון",
+              "optional": true
+            },
+            {
+              "id": "slurry_cornstarch",
+              "name": "קורנפלור",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית קורנפלור להסמכה"
+            },
+            {
+              "id": "slurry_water",
+              "name": "מים קרים",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות מים קרים"
+            },
+            {
+              "id": "parsley",
+              "name": "פטרוזיליה",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות פטרוזיליה קצוצה"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מתבלים ומצפים",
+          "instruction": "מערבבים 700 גרם חזה עוף עם 1 כפית מלח, ½ כפית פלפל, 1 כפית פפריקה ו־1 כף קורנפלור.",
+          "ingredient_refs": [
+            "chicken",
+            "salt",
+            "pepper",
+            "paprika",
+            "coat_cornstarch"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "צורבים קצר",
+          "instruction": "מחממים 2 כפות שמן זית וצורבים את העוף 1–1½ דקות מכל צד, בשתי נגלות אם צריך. מוציאים לצלחת.",
+          "ingredient_refs": [
+            "oil_sear",
+            "chicken"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "בסיס הרוטב",
+          "instruction": "מוסיפים למחבת 2 כפות שמן זית ו־4 שיני שום, ומטגנים כ־30 שניות. מוסיפים ⅓ כוס יין לבן ומבשלים כ־2 דקות.",
+          "ingredient_refs": [
+            "oil_sauce",
+            "garlic",
+            "wine"
+          ],
+          "timer_minutes": 2
+        },
+        {
+          "id": 4,
+          "title": "מוסיפים נוזלים",
+          "instruction": "מוסיפים 4 כפות מיץ לימון, גרידת חצי לימון אופציונלית, ½ כוס מים/ציר, 1 כפית דבש/סילאן ו־1 כפית חרדל אופציונלית. מבשלים כ־2 דקות.",
+          "ingredient_refs": [
+            "lemon",
+            "zest",
+            "water",
+            "honey",
+            "mustard"
+          ],
+          "timer_minutes": 2
+        },
+        {
+          "id": 5,
+          "title": "מסמיכים",
+          "instruction": "מערבבים 1 כפית קורנפלור עם 2 כפות מים קרים, מוסיפים למחבת ומבשלים כדקה עד שהרוטב מסמיך.",
+          "ingredient_refs": [
+            "slurry_cornstarch",
+            "slurry_water"
+          ],
+          "timer_minutes": 1
+        },
+        {
+          "id": 6,
+          "title": "מחזירים עוף",
+          "instruction": "מחזירים את 700 גרם חזה העוף לרוטב לדקה אחת בלבד, תוך הפיכה כדי לצפות את הפרוסות.",
+          "ingredient_refs": [
+            "chicken"
+          ],
+          "timer_minutes": 1,
+          "needs": [
+            {
+              "label": "העוף הצרוב"
+            },
+            {
+              "label": "הרוטב המוסמך"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "פטרוזיליה והגשה",
+          "instruction": "אם אוכלים מיד, מכבים ומוסיפים 2 כפות פטרוזיליה. אם מכינים ליום הבא, שומרים את 2 כפות הפטרוזיליה למחר ומוסיפים אחרי החימום. אם צריך, מוסיפים בסוף 1–2 כפיות מיץ לימון טרי.",
+          "ingredient_refs": [
+            "parsley",
+            "lemon"
+          ],
+          "needs": [
+            {
+              "label": "העוף ברוטב"
+            },
+            {
+              "ingredient_ref": "parsley"
+            },
+            {
+              "ingredient_ref": "lemon"
+            }
+          ]
+        }
+      ],
+      "variations": [],
+      "storage": {
+        "refrigerator": "מתאים להכנה יום מראש.",
+        "reheat": "לחמם בעדינות; אם הרוטב סמיך מדי להוסיף 2–3 כפות מים. להוסיף פטרוזיליה אחרי החימום."
+      },
+      "notes": [],
+      "image": "./images/recipes/lemon-chicken-white-wine.webp"
+    },
+    {
+      "id": "mediterranean-chicken-olives-wine",
+      "name": "כרעיים בתבשיל ים־תיכוני עם זיתים, עגבניות ויין אדום",
+      "category": "עוף",
+      "servings": "6–8 מנות",
+      "tags": [
+        "בשרי",
+        "מתאים להקפאה",
+        "בישול ארוך",
+        "זיתים"
+      ],
+      "times": {
+        "prep_minutes": 20,
+        "cook_minutes": "90–100"
+      },
+      "ingredient_groups": [
+        {
+          "name": "מצרכים",
+          "items": [
+            {
+              "id": "thighs",
+              "name": "כרעיים",
+              "quantity": "6–8",
+              "display": "6–8 כרעיים"
+            },
+            {
+              "id": "onions",
+              "name": "בצלים",
+              "quantity": "2",
+              "unit": "גדולים",
+              "display": "2 בצלים גדולים"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "5–6",
+              "unit": "שיניים",
+              "display": "5–6 שיני שום"
+            },
+            {
+              "id": "carrots",
+              "name": "גזרים",
+              "quantity": "2",
+              "display": "2 גזרים"
+            },
+            {
+              "id": "pepper",
+              "name": "פלפל אדום",
+              "quantity": "1",
+              "display": "1 פלפל אדום"
+            },
+            {
+              "id": "crushed_tomatoes",
+              "name": "עגבניות מרוסקות",
+              "quantity": "400",
+              "unit": "גרם",
+              "display": "400 גרם עגבניות מרוסקות"
+            },
+            {
+              "id": "tomato_paste",
+              "name": "רסק עגבניות",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות רסק עגבניות"
+            },
+            {
+              "id": "wine",
+              "name": "יין אדום יבש",
+              "quantity": "3/4",
+              "unit": "כוס",
+              "display": "¾ כוס יין אדום יבש",
+              "optional": true
+            },
+            {
+              "id": "stock",
+              "name": "ציר עוף או מים",
+              "quantity": "1",
+              "unit": "כוס",
+              "display": "1 כוס ציר עוף או מים"
+            },
+            {
+              "id": "olives",
+              "name": "זיתים ירוקים או קלמטה",
+              "quantity": "1",
+              "unit": "חופן",
+              "display": "חופן זיתים"
+            },
+            {
+              "id": "olive_oil",
+              "name": "שמן זית",
+              "quantity": "3",
+              "unit": "כפות",
+              "display": "3 כפות שמן זית"
+            },
+            {
+              "id": "paprika",
+              "name": "פפריקה מתוקה",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית פפריקה מתוקה"
+            },
+            {
+              "id": "smoked_paprika",
+              "name": "פפריקה מעושנת",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית פפריקה מעושנת"
+            },
+            {
+              "id": "cumin",
+              "name": "כמון",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית כמון"
+            },
+            {
+              "id": "oregano",
+              "name": "אורגנו",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית אורגנו"
+            },
+            {
+              "id": "thyme",
+              "name": "טימין",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית טימין"
+            },
+            {
+              "id": "salt_pepper",
+              "name": "מלח ופלפל",
+              "display": "מלח ופלפל לפי הטעם"
+            },
+            {
+              "id": "bay",
+              "name": "עלה דפנה",
+              "quantity": "1",
+              "display": "1 עלה דפנה"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "משחימים עוף",
+          "instruction": "מחממים 3 כפות שמן זית ומשחימים 6–8 כרעיים היטב מכל הצדדים. מוציאים לצלחת.",
+          "ingredient_refs": [
+            "olive_oil",
+            "thighs"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "מטגנים ירקות",
+          "instruction": "באותו סיר מטגנים 2 בצלים כ־10 דקות. מוסיפים 5–6 שיני שום, 2 גזרים ו־1 פלפל אדום ומטגנים עוד 5 דקות.",
+          "ingredient_refs": [
+            "onions",
+            "garlic",
+            "carrots",
+            "pepper"
+          ],
+          "timer_minutes": 15
+        },
+        {
+          "id": 3,
+          "title": "רסק ויין",
+          "instruction": "מוסיפים 2 כפות רסק עגבניות ומטגנים דקה. מוסיפים ¾ כוס יין אדום אופציונלי ומצמצמים 3–4 דקות.",
+          "ingredient_refs": [
+            "tomato_paste",
+            "wine"
+          ],
+          "timer_minutes": 5
+        },
+        {
+          "id": 4,
+          "title": "בונים רוטב",
+          "instruction": "מוסיפים 400 גרם עגבניות מרוסקות, 1 כוס ציר/מים, 1 כפית פפריקה, ½ כפית פפריקה מעושנת, 1 כפית כמון, 1 כפית אורגנו, ½ כפית טימין, מלח, פלפל ו־1 עלה דפנה.",
+          "ingredient_refs": [
+            "crushed_tomatoes",
+            "stock",
+            "paprika",
+            "smoked_paprika",
+            "cumin",
+            "oregano",
+            "thyme",
+            "salt_pepper",
+            "bay"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "מבשלים עוף",
+          "instruction": "מחזירים את 6–8 הכרעיים ומבשלים על אש קטנה כ־55 דקות. לאחר מכן עוברים לשלב הוספת הזיתים.",
+          "ingredient_refs": [
+            "thighs"
+          ],
+          "timer_minutes": 55,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "הכרעיים המושחמות"
+            },
+            {
+              "label": "הרוטב שבסיר"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "זיתים",
+          "instruction": "מוסיפים חופן זיתים וממשיכים לבשל עוד כ־20 דקות, עד שהעוף רך והרוטב עשיר.",
+          "ingredient_refs": [
+            "olives"
+          ],
+          "timer_minutes": 20,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "תבשיל הכרעיים אחרי כ־55 דקות"
+            },
+            {
+              "ingredient_ref": "olives"
+            }
+          ]
+        }
+      ],
+      "variations": [],
+      "storage": {
+        "freezer": "לקרר לגמרי, לחלק למנות עם הרבה רוטב ולהקפיא עד כ־3 חודשים.",
+        "reheat": "להפשיר לילה במקרר ולחמם בעדינות."
+      },
+      "notes": [],
+      "image": "./images/recipes/mediterranean-chicken-olives-wine.webp"
+    },
+    {
+      "id": "onion-cheese-pie",
+      "name": "פשטידת בצל וגבינות בלי שמנת",
+      "category": "פשטידות ומאפים",
+      "servings": "תבנית 24–26 ס״מ",
+      "tags": [
+        "חלבי",
+        "צמחוני",
+        "תנור"
+      ],
+      "times": {
+        "prep_minutes": 25,
+        "bake_minutes": "35–45",
+        "rest_minutes": 10
+      },
+      "ingredient_groups": [
+        {
+          "name": "בסיס",
+          "items": [
+            {
+              "id": "onions",
+              "name": "בצלים",
+              "quantity": "5",
+              "unit": "גדולים",
+              "display": "5 בצלים גדולים"
+            },
+            {
+              "id": "oil",
+              "name": "שמן",
+              "quantity": "3",
+              "unit": "כפות",
+              "display": "3 כפות שמן"
+            },
+            {
+              "id": "eggs",
+              "name": "ביצים",
+              "quantity": "4",
+              "display": "4 ביצים"
+            },
+            {
+              "id": "yellow_cheese",
+              "name": "גבינה צהובה מגוררת",
+              "quantity": "200",
+              "unit": "גרם",
+              "display": "200 גרם גבינה צהובה מגוררת"
+            },
+            {
+              "id": "bulgarian",
+              "name": "גבינה בולגרית",
+              "quantity": "150",
+              "unit": "גרם",
+              "display": "150 גרם גבינה בולגרית מפוררת"
+            },
+            {
+              "id": "flour",
+              "name": "קמח",
+              "quantity": "3",
+              "unit": "כפות",
+              "display": "3 כפות קמח"
+            },
+            {
+              "id": "baking_powder",
+              "name": "אבקת אפייה",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית אבקת אפייה"
+            },
+            {
+              "id": "pepper",
+              "name": "פלפל שחור",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית פלפל שחור"
+            },
+            {
+              "id": "nutmeg",
+              "name": "אגוז מוסקט",
+              "display": "מעט אגוז מוסקט",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מקרמלים בצל",
+          "instruction": "מחממים 3 כפות שמן ומטגנים 5 בצלים גדולים על אש בינונית־נמוכה עד שהם רכים וזהובים. מצננים מעט.",
+          "ingredient_refs": [
+            "oil",
+            "onions"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "מכינים בלילה",
+          "instruction": "טורפים 4 ביצים ומערבבים עם 200 גרם גבינה צהובה, 150 גרם בולגרית, 3 כפות קמח, 1 כפית אבקת אפייה, ½ כפית פלפל שחור ומעט אגוז מוסקט אופציונלי. אין צורך להוסיף מלח לפני טעימה בגלל הבולגרית.",
+          "ingredient_refs": [
+            "eggs",
+            "yellow_cheese",
+            "bulgarian",
+            "flour",
+            "baking_powder",
+            "pepper",
+            "nutmeg"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "מאחדים",
+          "instruction": "מקפלים פנימה את 5 הבצלים המטוגנים ומעבירים לתבנית משומנת.",
+          "ingredient_refs": [
+            "onions"
+          ],
+          "needs": [
+            {
+              "label": "הבצל המטוגן"
+            },
+            {
+              "label": "הבלילה המוכנה"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "אופים",
+          "instruction": "אופים ב־180°C כ־35–45 דקות, עד שהפשטידה יציבה וזהובה.",
+          "ingredient_refs": [],
+          "timer_minutes": 35,
+          "suggest_timer": true,
+          "timer_options": [
+            35,
+            45
+          ],
+          "needs": [
+            {
+              "label": "הפשטידה המורכבת"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "נותנים להתייצב",
+          "instruction": "מוציאים מהתנור ונותנים לפשטידה לנוח כ־10 דקות לפני החיתוך.",
+          "ingredient_refs": [],
+          "timer_minutes": 10,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "הפשטידה האפויה"
+            }
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "title": "עם כרובית",
+          "description": "מוסיפים כרובית קטנה מפורקת לפרחים, אחרי חליטה 4–5 דקות וסינון טוב."
+        },
+        {
+          "title": "עם בטטה",
+          "description": "מוסיפים בטטה בינונית אחת בקוביות 1–1.5 ס״מ, אחרי אפייה מוקדמת של כ־20 דקות ב־200°C."
+        }
+      ],
+      "storage": {},
+      "notes": [],
+      "image": "./images/recipes/onion-cheese-pie.webp"
+    },
+    {
+      "id": "meat-lasagna-parve-bechamel",
+      "name": "לזניה בשרית עם בשמל פרווה",
+      "category": "בשר",
+      "servings": "8–10 מנות",
+      "tags": [
+        "בשרי",
+        "תנור",
+        "מתאים להקפאה"
+      ],
+      "times": {
+        "prep_minutes": 25,
+        "cook_minutes": 50,
+        "bake_minutes": "55–60",
+        "rest_minutes": "15–20"
+      },
+      "ingredient_groups": [
+        {
+          "name": "רוטב בשר",
+          "items": [
+            {
+              "id": "meat",
+              "name": "בשר בקר טחון",
+              "quantity": "800",
+              "unit": "גרם",
+              "display": "800 גרם בשר בקר טחון"
+            },
+            {
+              "id": "onions",
+              "name": "בצלים",
+              "quantity": "2",
+              "unit": "גדולים",
+              "display": "2 בצלים גדולים קצוצים דק"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "4",
+              "unit": "שיניים",
+              "display": "4 שיני שום כתושות"
+            },
+            {
+              "id": "carrots",
+              "name": "גזרים",
+              "quantity": "2",
+              "display": "2 גזרים מגוררים",
+              "optional": true
+            },
+            {
+              "id": "olive_oil",
+              "name": "שמן זית",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות שמן זית"
+            },
+            {
+              "id": "tomato_paste",
+              "name": "רסק עגבניות",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות רסק עגבניות"
+            },
+            {
+              "id": "crushed_tomatoes",
+              "name": "עגבניות מרוסקות",
+              "quantity": "800",
+              "unit": "גרם",
+              "display": "800 גרם עגבניות מרוסקות"
+            },
+            {
+              "id": "diced_tomatoes",
+              "name": "עגבניות חתוכות משומרות",
+              "quantity": "400",
+              "unit": "גרם",
+              "display": "400 גרם עגבניות חתוכות"
+            },
+            {
+              "id": "fresh_tomatoes",
+              "name": "עגבניות טריות",
+              "quantity": "3–4",
+              "display": "3–4 עגבניות טריות גדולות ובשלות",
+              "optional": true
+            },
+            {
+              "id": "water",
+              "name": "מים",
+              "quantity": "1",
+              "unit": "כוס",
+              "display": "1 כוס מים"
+            },
+            {
+              "id": "wine",
+              "name": "יין אדום יבש",
+              "quantity": "150",
+              "unit": "מ״ל",
+              "display": "כ־150 מ״ל יין אדום יבש",
+              "optional": true
+            },
+            {
+              "id": "sugar",
+              "name": "סוכר",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית סוכר"
+            },
+            {
+              "id": "paprika",
+              "name": "פפריקה מתוקה",
+              "quantity": "2",
+              "unit": "כפיות",
+              "display": "2 כפיות פפריקה מתוקה"
+            },
+            {
+              "id": "oregano",
+              "name": "אורגנו",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית אורגנו יבש"
+            },
+            {
+              "id": "basil",
+              "name": "בזיליקום",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית בזיליקום יבש"
+            },
+            {
+              "id": "thyme",
+              "name": "טימין",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית טימין",
+              "optional": true
+            },
+            {
+              "id": "salt_pepper",
+              "name": "מלח ופלפל",
+              "display": "מלח ופלפל לפי הטעם"
+            }
+          ]
+        },
+        {
+          "name": "בשמל פרווה",
+          "items": [
+            {
+              "id": "margarine",
+              "name": "מרגרינה או שמן זית",
+              "quantity": "80 גרם / 1/3 כוס",
+              "display": "80 גרם מרגרינה או ⅓ כוס שמן זית"
+            },
+            {
+              "id": "flour",
+              "name": "קמח",
+              "quantity": "1/2",
+              "unit": "כוס",
+              "display": "½ כוס קמח"
+            },
+            {
+              "id": "plant_milk",
+              "name": "משקה סויה/שיבולת שועל לא ממותק",
+              "quantity": "4",
+              "unit": "כוסות",
+              "display": "4 כוסות משקה סויה או שיבולת שועל לא ממותק"
+            },
+            {
+              "id": "nutmeg",
+              "name": "אגוז מוסקט",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית אגוז מוסקט"
+            },
+            {
+              "id": "salt",
+              "name": "מלח",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית מלח"
+            },
+            {
+              "id": "pepper_b",
+              "name": "פלפל שחור",
+              "display": "מעט פלפל שחור"
+            }
+          ]
+        },
+        {
+          "name": "להרכבה",
+          "items": [
+            {
+              "id": "lasagna",
+              "name": "עלי לזניה",
+              "quantity": "12–15",
+              "display": "12–15 עלי לזניה"
+            },
+            {
+              "id": "top_oil",
+              "name": "שמן זית",
+              "quantity": "1–2",
+              "unit": "כפות",
+              "display": "1–2 כפות שמן זית לשכבה העליונה",
+              "optional": true
+            },
+            {
+              "id": "top_spice",
+              "name": "פפריקה ואורגנו",
+              "display": "מעט פפריקה מתוקה ואורגנו לשכבה העליונה",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "רוטב בשר – ירקות",
+          "instruction": "מחממים 2 כפות שמן זית ומטגנים 2 בצלים 6–8 דקות. מוסיפים 4 שיני שום ו־2 גזרים אופציונליים ומטגנים עוד 2 דקות.",
+          "ingredient_refs": [
+            "olive_oil",
+            "onions",
+            "garlic",
+            "carrots"
+          ],
+          "timer_minutes": 10
+        },
+        {
+          "id": 2,
+          "title": "רוטב בשר – השחמה",
+          "instruction": "מוסיפים 800 גרם בשר טחון ומפוררים עד שהוא משנה צבע ומתחיל להשחים. מוסיפים 2 כפות רסק עגבניות ומטגנים כדקה.",
+          "ingredient_refs": [
+            "meat",
+            "tomato_paste"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "יין ועגבניות טריות",
+          "instruction": "אם משתמשים, מוסיפים כ־150 מ״ל יין אדום ומצמצמים 2–3 דקות. אם משתמשים ב־3–4 עגבניות טריות, מוסיפים אותן מגוררות/קלופות וקצוצות ומבשלים 5–10 דקות.",
+          "ingredient_refs": [
+            "wine",
+            "fresh_tomatoes"
+          ],
+          "timer_minutes": 10
+        },
+        {
+          "id": 4,
+          "title": "מסיימים רוטב בשר",
+          "instruction": "מוסיפים 800 גרם עגבניות מרוסקות, 400 גרם עגבניות חתוכות, 1 כוס מים, 1 כפית סוכר, 2 כפיות פפריקה, 1 כפית אורגנו, 1 כפית בזיליקום, ½ כפית טימין אופציונלית ומלח־פלפל. מבשלים 30–40 דקות עד סמיכות.",
+          "ingredient_refs": [
+            "crushed_tomatoes",
+            "diced_tomatoes",
+            "water",
+            "sugar",
+            "paprika",
+            "oregano",
+            "basil",
+            "thyme",
+            "salt_pepper"
+          ],
+          "timer_minutes": 30,
+          "timer_options": [
+            30,
+            40
+          ],
+          "suggest_timer": true
+        },
+        {
+          "id": 5,
+          "title": "בשמל",
+          "instruction": "מחממים 80 גרם מרגרינה או ⅓ כוס שמן זית. מוסיפים ½ כוס קמח וטורפים כדקה. מוסיפים בהדרגה 4 כוסות משקה סויה/שיבולת שועל תוך טריפה ומבשלים 5–7 דקות עד הסמכה. מתבלים ב־½ כפית אגוז מוסקט, 1 כפית מלח ומעט פלפל.",
+          "ingredient_refs": [
+            "margarine",
+            "flour",
+            "plant_milk",
+            "nutmeg",
+            "salt",
+            "pepper_b"
+          ],
+          "timer_minutes": 8
+        },
+        {
+          "id": 6,
+          "title": "מרכיבים",
+          "instruction": "בתבנית 20×30 מסדרים: שכבה דקה של רוטב בשר, עלי לזניה, שליש מרוטב הבשר ושליש מהבשמל. חוזרים עוד פעמיים ומסיימים בעלי לזניה ובשמל.",
+          "ingredient_refs": [
+            "lasagna",
+            "meat",
+            "plant_milk"
+          ],
+          "needs": [
+            {
+              "label": "רוטב הבשר המוכן"
+            },
+            {
+              "label": "הבשמל המוכן"
+            },
+            {
+              "ingredient_ref": "lasagna"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "שכבה עליונה",
+          "instruction": "אם לא משתמשים בגבינה טבעונית, מפזרים מעט פפריקה ואורגנו ומטפטפים 1–2 כפות שמן זית על הבשמל העליון.",
+          "ingredient_refs": [
+            "top_spice",
+            "top_oil"
+          ],
+          "needs": [
+            {
+              "label": "הלזניה המורכבת"
+            },
+            {
+              "ingredient_ref": "top_oil"
+            },
+            {
+              "ingredient_ref": "top_spice"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "אופים מכוסה",
+          "instruction": "מכסים היטב ואופים ב־180°C במשך 40 דקות.",
+          "ingredient_refs": [],
+          "timer_minutes": 40,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "הלזניה המורכבת"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "משחימים ללא כיסוי",
+          "instruction": "מסירים את הכיסוי וממשיכים לאפות עוד 15–20 דקות, עד שהחלק העליון מבעבע ומשחים קלות.",
+          "ingredient_refs": [],
+          "timer_minutes": 15,
+          "timer_options": [
+            15,
+            20
+          ],
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "הלזניה אחרי 40 דקות אפייה מכוסה"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "נותנים ללזניה לנוח",
+          "instruction": "מוציאים מהתנור ונותנים ללזניה לנוח 15–20 דקות לפני החיתוך.",
+          "ingredient_refs": [],
+          "timer_minutes": 15,
+          "timer_options": [
+            15,
+            20
+          ],
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "הלזניה האפויה"
+            }
+          ]
+        }
+      ],
+      "variations": [],
+      "storage": {
+        "freezer": "אפשר להקפיא לפני או אחרי האפייה; אם אחרי, עדיף במנות. לחימום לאחר הפשרה: כ־25–30 דקות ב־180°C."
+      },
+      "notes": [
+        "למנה בשרית משתמשים בבשמל עם משקה סויה או שיבולת שועל לא ממותק. אם משתמשים במוצר אחר, יש לוודא שסימון הכשרות שלו מתאים למנה בשרית."
+      ],
+      "image": "./images/recipes/meat-lasagna-parve-bechamel.webp"
+    },
+    {
+      "id": "chraimeh-nile-perch",
+      "name": "חריימה מנסיכת הנילוס",
+      "category": "דגים",
+      "servings": "6–8 מנות",
+      "tags": [
+        "פרווה",
+        "דגים",
+        "חריף בינוני",
+        "מתאים להקפאה",
+        "לשבת"
+      ],
+      "times": {
+        "prep_minutes": 15,
+        "cook_minutes": "40–45",
+        "rest_minutes": 10
+      },
+      "ingredient_groups": [
+        {
+          "name": "לדג",
+          "items": [
+            {
+              "id": "fish",
+              "name": "נסיכת הנילוס",
+              "quantity": "1.5",
+              "unit": "ק״ג",
+              "display": "1.5 ק״ג מנות נסיכת הנילוס, מופשרות ומיובשות"
+            },
+            {
+              "id": "fish_salt",
+              "name": "מלח",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית מלח לדג"
+            },
+            {
+              "id": "lemon",
+              "name": "מיץ לימון",
+              "quantity": "1/2",
+              "unit": "לימון",
+              "display": "מיץ מחצי לימון"
+            }
+          ]
+        },
+        {
+          "name": "לרוטב",
+          "items": [
+            {
+              "id": "olive_oil",
+              "name": "שמן זית",
+              "quantity": "6",
+              "unit": "כפות",
+              "display": "6 כפות שמן זית"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "10–12",
+              "unit": "שיניים",
+              "display": "10–12 שיני שום פרוסות דק"
+            },
+            {
+              "id": "tomatoes",
+              "name": "עגבניות",
+              "quantity": "6–7",
+              "unit": "גדולות",
+              "display": "6–7 עגבניות גדולות ובשלות, מגורדות"
+            },
+            {
+              "id": "tomato_paste",
+              "name": "רסק עגבניות",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות רסק עגבניות"
+            },
+            {
+              "id": "water",
+              "name": "מים",
+              "quantity": "2",
+              "unit": "כוסות",
+              "display": "2 כוסות מים"
+            },
+            {
+              "id": "sweet_paprika",
+              "name": "פפריקה מתוקה",
+              "quantity": "2.5",
+              "unit": "כפות",
+              "display": "2½ כפות פפריקה מתוקה"
+            },
+            {
+              "id": "hot_paprika",
+              "name": "פפריקה חריפה",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית פפריקה חריפה"
+            },
+            {
+              "id": "cumin",
+              "name": "כמון",
+              "quantity": "1.25",
+              "unit": "כפיות",
+              "display": "1¼ כפיות כמון"
+            },
+            {
+              "id": "turmeric",
+              "name": "כורכום",
+              "quantity": "3/4",
+              "unit": "כפית",
+              "display": "¾ כפית כורכום"
+            },
+            {
+              "id": "sauce_salt",
+              "name": "מלח",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית מלח לרוטב, ואז לפי הטעם"
+            },
+            {
+              "id": "black_pepper",
+              "name": "פלפל שחור",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית פלפל שחור"
+            },
+            {
+              "id": "sugar",
+              "name": "סוכר",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית סוכר, רק אם העגבניות חמצמצות",
+              "optional": true
+            },
+            {
+              "id": "green_chili",
+              "name": "פלפל חריף ירוק",
+              "quantity": "1",
+              "display": "1 פלפל חריף ירוק פרוס",
+              "optional": true
+            },
+            {
+              "id": "cilantro",
+              "name": "כוסברה",
+              "quantity": "1/2",
+              "unit": "צרור",
+              "display": "חצי צרור כוסברה קצוצה"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מכינים דג",
+          "instruction": "מפשירים ומייבשים 1.5 ק״ג דג. מפזרים 1 כפית מלח ומיץ מחצי לימון ומניחים 10–15 דקות. אם יש עור חלקי, שומרים אותו להנחה כלפי מטה.",
+          "ingredient_refs": [
+            "fish",
+            "fish_salt",
+            "lemon"
+          ],
+          "timer_minutes": 15
+        },
+        {
+          "id": 2,
+          "title": "פותחים שום ותבלינים",
+          "instruction": "מחממים 6 כפות שמן זית. מטגנים 10–12 שיני שום כדקה בלי להשחים. מוסיפים 2½ כפות פפריקה מתוקה, 1 כפית פפריקה חריפה, 1¼ כפיות כמון ו־¾ כפית כורכום ומערבבים כ־20 שניות.",
+          "ingredient_refs": [
+            "olive_oil",
+            "garlic",
+            "sweet_paprika",
+            "hot_paprika",
+            "cumin",
+            "turmeric"
+          ],
+          "timer_minutes": 1
+        },
+        {
+          "id": 3,
+          "title": "רסק ועגבניות",
+          "instruction": "מוסיפים 2 כפות רסק עגבניות ומערבבים כחצי דקה. מוסיפים 6–7 עגבניות מגורדות, 2 כוסות מים, 1 כפית מלח, ½ כפית פלפל, 1 כפית סוכר רק אם צריך ו־1 פלפל חריף אופציונלי.",
+          "ingredient_refs": [
+            "tomato_paste",
+            "tomatoes",
+            "water",
+            "sauce_salt",
+            "black_pepper",
+            "sugar",
+            "green_chili"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "מבשלים רוטב",
+          "instruction": "מביאים לרתיחה ומבשלים על אש בינונית כ־25 דקות עד שהרוטב מסמיך מעט. טועמים ומתקנים לפני הכנסת הדג.",
+          "ingredient_refs": [
+            "water"
+          ],
+          "timer_minutes": 25,
+          "suggest_timer": true
+        },
+        {
+          "id": 5,
+          "title": "מכניסים דג",
+          "instruction": "מניחים 1.5 ק״ג מנות דג בתוך הרוטב, צד העור כלפי מטה כשיש. יוצקים מעט רוטב מעל ולא מערבבים בכף.",
+          "ingredient_refs": [
+            "fish"
+          ],
+          "needs": [
+            {
+              "label": "רוטב החריימה המוכן"
+            },
+            {
+              "ingredient_ref": "fish"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "מבשלים דג",
+          "instruction": "מבשלים על אש בינונית־נמוכה 10–12 דקות. מנענעים בעדינות את הסיר במקום לערבב.",
+          "ingredient_refs": [
+            "fish"
+          ],
+          "timer_minutes": 10,
+          "suggest_timer": true,
+          "timer_options": [
+            10,
+            12
+          ],
+          "needs": [
+            {
+              "label": "הדג בתוך הרוטב"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "מסיימים בכוסברה",
+          "instruction": "מפזרים חצי צרור כוסברה ומבשלים עוד כ־2 דקות, ואז מכבים את האש.",
+          "ingredient_refs": [
+            "cilantro"
+          ],
+          "timer_minutes": 2,
+          "needs": [
+            {
+              "label": "החריימה לאחר בישול הדג"
+            },
+            {
+              "ingredient_ref": "cilantro"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "נותנים לחריימה לנוח",
+          "instruction": "משאירים את הסיר מכוסה כ־10 דקות לפני ההגשה.",
+          "ingredient_refs": [],
+          "timer_minutes": 10,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "החריימה המוכנה"
+            }
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "title": "חריף יותר",
+          "description": "אפשר להוסיף מעט פפריקה חריפה או את הפלפל הירוק האופציונלי."
+        },
+        {
+          "title": "יותר רוטב",
+          "description": "אפשר להוסיף עוד מעט מים אם רוצים הרבה רוטב לניגוב; במתכון הגדול יותר הוצעה תוספת של ½–1 כוס."
+        }
+      ],
+      "storage": {
+        "freezer": "אפשר להקפיא לאחר קירור, כשהדג מכוסה ברוטב, עד כ־2–3 חודשים.",
+        "reheat": "להפשיר לילה במקרר ולחמם 10–15 דקות על אש נמוכה תוך ניעור עדין. אם מיועד להקפאה מראש, אפשר לבשל את הדג 1–2 דקות פחות."
+      },
+      "notes": [],
+      "image": "./images/recipes/chraimeh-nile-perch.webp"
+    },
+    {
+      "id": "creamy-mashed-potatoes",
+      "name": "פירה קרמי עם חלב \"ללא פרה\"",
+      "category": "תוספות",
+      "servings": "6–8 מנות",
+      "tags": [
+        "תוספת",
+        "מתאים לדגים",
+        "דורש בדיקת סיווג כשרות"
+      ],
+      "times": {
+        "prep_minutes": 10,
+        "cook_minutes": "20–25"
+      },
+      "ingredient_groups": [
+        {
+          "name": "מצרכים",
+          "items": [
+            {
+              "id": "potatoes",
+              "name": "תפוחי אדמה",
+              "quantity": "2",
+              "unit": "ק״ג",
+              "display": "2 ק״ג תפוחי אדמה"
+            },
+            {
+              "id": "fat",
+              "name": "מרגרינה או שמן זית",
+              "quantity": "60 גרם / 70 מ״ל",
+              "display": "60 גרם מרגרינה או 70 מ״ל שמן זית עדין"
+            },
+            {
+              "id": "milk",
+              "name": "חלב \"ללא פרה\" של גד",
+              "quantity": "250–350",
+              "unit": "מ״ל",
+              "display": "250–350 מ״ל חלב \"ללא פרה\" של גד, מחומם"
+            },
+            {
+              "id": "salt",
+              "name": "מלח",
+              "quantity": "2",
+              "unit": "כפיות",
+              "display": "2 כפיות מלח, או לפי הטעם"
+            },
+            {
+              "id": "boil_salt",
+              "name": "מלח למי הבישול",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף מלח למי הבישול"
+            },
+            {
+              "id": "pepper",
+              "name": "פלפל לבן או שחור",
+              "quantity": "1/4",
+              "unit": "כפית",
+              "display": "¼ כפית פלפל לבן או שחור"
+            },
+            {
+              "id": "chives",
+              "name": "עירית",
+              "quantity": "2–3",
+              "unit": "כפות",
+              "display": "2–3 כפות עירית קצוצה",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מבשלים תפוחי אדמה",
+          "instruction": "קולפים 2 ק״ג תפוחי אדמה, חותכים לקוביות גדולות, מכסים במים קרים ומוסיפים 1 כף מלח. מבשלים 20–25 דקות עד שסכין נכנסת בקלות.",
+          "ingredient_refs": [
+            "potatoes",
+            "boil_salt"
+          ],
+          "timer_minutes": 20,
+          "suggest_timer": true,
+          "timer_options": [
+            20,
+            25
+          ]
+        },
+        {
+          "id": 2,
+          "title": "מייבשים",
+          "instruction": "מסננים את 2 ק״ג תפוחי האדמה ומחזירים לסיר ל־1–2 דקות על אש נמוכה כדי לאדות מים.",
+          "ingredient_refs": [
+            "potatoes"
+          ],
+          "timer_minutes": 2
+        },
+        {
+          "id": 3,
+          "title": "מחממים חלב",
+          "instruction": "מחממים 250–350 מ״ל חלב \"ללא פרה\" של גד, בלי להרתיח.",
+          "ingredient_refs": [
+            "milk"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "מועכים",
+          "instruction": "מועכים את תפוחי האדמה ידנית. מוסיפים 60 גרם מרגרינה או 70 מ״ל שמן זית.",
+          "ingredient_refs": [
+            "potatoes",
+            "fat"
+          ],
+          "needs": [
+            {
+              "label": "תפוחי האדמה המבושלים והמיובשים"
+            },
+            {
+              "ingredient_ref": "fat"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "מוסיפים נוזל בהדרגה",
+          "instruction": "מוסיפים בהדרגה 250–350 מ״ל מהחלב החם עד שמתקבל מרקם רך. מתבלים ב־2 כפיות מלח ו־¼ כפית פלפל. מוסיפים 2–3 כפות עירית אם רוצים.",
+          "ingredient_refs": [
+            "milk",
+            "salt",
+            "pepper",
+            "chives"
+          ],
+          "needs": [
+            {
+              "label": "הפירה המעוך"
+            },
+            {
+              "ingredient_ref": "milk"
+            },
+            {
+              "ingredient_ref": "salt"
+            },
+            {
+              "ingredient_ref": "pepper"
+            },
+            {
+              "ingredient_ref": "chives"
+            }
+          ]
+        }
+      ],
+      "variations": [],
+      "storage": {},
+      "notes": [
+        "יש לבדוק את סימון הכשרות שעל חלב \"ללא פרה\" ולוודא שהוא מתאים לארוחה.",
+        "לא להשתמש בבלנדר או במעבד מזון כדי למנוע מרקם דביק."
+      ],
+      "image": "./images/recipes/creamy-mashed-potatoes.webp"
+    },
+    {
+      "id": "drumsticks-tomato-olives",
+      "name": "שוקיים ללא עור ברוטב עגבניות וזיתים",
+      "category": "עוף",
+      "servings": "כ־1 ק״ג שוקיים",
+      "tags": [
+        "בשרי",
+        "זיתים",
+        "סיר",
+        "לשבת"
+      ],
+      "times": {
+        "prep_minutes": 15,
+        "cook_minutes": "70–80",
+        "rest_minutes": 10
+      },
+      "ingredient_groups": [
+        {
+          "name": "מצרכים",
+          "items": [
+            {
+              "id": "drumsticks",
+              "name": "שוקיים",
+              "quantity": "1",
+              "unit": "ק״ג",
+              "display": "1 ק״ג שוקיים ללא עור"
+            },
+            {
+              "id": "oil",
+              "name": "שמן",
+              "quantity": "3",
+              "unit": "כפות",
+              "display": "3 כפות שמן"
+            },
+            {
+              "id": "onion",
+              "name": "בצל",
+              "quantity": "1",
+              "unit": "גדול",
+              "display": "1 בצל גדול קצוץ דק"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "3–4",
+              "unit": "שיניים",
+              "display": "3–4 שיני שום קצוצות"
+            },
+            {
+              "id": "pepper",
+              "name": "פלפל אדום",
+              "quantity": "1",
+              "display": "1 פלפל אדום, רצועות",
+              "optional": true
+            },
+            {
+              "id": "tomato_paste",
+              "name": "רסק עגבניות",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף רסק עגבניות"
+            },
+            {
+              "id": "crushed_tomatoes",
+              "name": "עגבניות מרוסקות",
+              "quantity": "400",
+              "unit": "גרם",
+              "display": "400 גרם עגבניות מרוסקות"
+            },
+            {
+              "id": "water",
+              "name": "מים",
+              "quantity": "1–1.5",
+              "unit": "כוסות",
+              "display": "1 כוס מים ועוד עד ½ כוס לפי הצורך"
+            },
+            {
+              "id": "olives",
+              "name": "זיתים ירוקים מגולענים",
+              "quantity": "200–250",
+              "unit": "גרם",
+              "display": "200–250 גרם זיתים ירוקים מגולענים"
+            },
+            {
+              "id": "paprika",
+              "name": "פפריקה מתוקה",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית פפריקה מתוקה"
+            },
+            {
+              "id": "hot_paprika",
+              "name": "פפריקה חריפה / צ׳ילי",
+              "quantity": "1/4",
+              "unit": "כפית",
+              "display": "¼ כפית פפריקה חריפה",
+              "optional": true
+            },
+            {
+              "id": "cumin",
+              "name": "כמון",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית כמון"
+            },
+            {
+              "id": "turmeric",
+              "name": "כורכום",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית כורכום"
+            },
+            {
+              "id": "black_pepper",
+              "name": "פלפל שחור",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית פלפל שחור"
+            },
+            {
+              "id": "salt",
+              "name": "מלח",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית מלח בסך הכול, ורק אחר כך לפי הטעם"
+            },
+            {
+              "id": "sugar",
+              "name": "סוכר או דבש",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית סוכר או דבש, רק אם חמצמץ",
+              "optional": true
+            },
+            {
+              "id": "herbs",
+              "name": "כוסברה או פטרוזיליה",
+              "quantity": "1",
+              "unit": "חופן",
+              "display": "חופן כוסברה או פטרוזיליה",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מכינים זיתים",
+          "instruction": "מסננים ושוטפים 200–250 גרם זיתים וטועמים. אם הם מלוחים/מרים מאוד, מרתיחים 5 דקות ומסננים; אחרת אין צורך בהרתחה.",
+          "ingredient_refs": [
+            "olives"
+          ],
+          "timer_minutes": 5
+        },
+        {
+          "id": 2,
+          "title": "מתבלים ומשחימים",
+          "instruction": "מייבשים 1 ק״ג שוקיים ומתבלים ב־¼ כפית מלח ובכמחצית מ־½ כפית הפלפל. מחממים 3 כפות שמן ומשחימים 2–3 דקות מכל צד. מוציאים לצלחת.",
+          "ingredient_refs": [
+            "drumsticks",
+            "salt",
+            "black_pepper",
+            "oil"
+          ],
+          "timer_minutes": 6
+        },
+        {
+          "id": 3,
+          "title": "מטגנים בצל ופלפל",
+          "instruction": "מטגנים 1 בצל גדול 6–8 דקות. אם משתמשים ב־1 פלפל אדום מוסיפים אותו לעוד 3–4 דקות.",
+          "ingredient_refs": [
+            "onion",
+            "pepper"
+          ],
+          "timer_minutes": 12
+        },
+        {
+          "id": 4,
+          "title": "תבלינים ורסק",
+          "instruction": "מוסיפים 3–4 שיני שום, 1 כף רסק, 1 כפית פפריקה, ¼ כפית פפריקה חריפה אופציונלית, ½ כפית כמון, ½ כפית כורכום ואת יתרת הפלפל השחור. מטגנים כ־30 שניות.",
+          "ingredient_refs": [
+            "garlic",
+            "tomato_paste",
+            "paprika",
+            "hot_paprika",
+            "cumin",
+            "turmeric",
+            "black_pepper"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "רוטב",
+          "instruction": "מוסיפים 400 גרם עגבניות מרוסקות, 1 כוס מים ו־¼ כפית מלח נוספת. מביאים לרתיחה עדינה.",
+          "ingredient_refs": [
+            "crushed_tomatoes",
+            "water",
+            "salt"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "בישול שוקיים",
+          "instruction": "מחזירים את 1 ק״ג השוקיים והנוזלים מהצלחת. אם הרוטב לא מגיע לפחות למחצית גובה השוקיים, מוסיפים עד ½ כוס מים. מכסים ומבשלים 25–30 דקות על אש נמוכה.",
+          "ingredient_refs": [
+            "drumsticks",
+            "water"
+          ],
+          "timer_minutes": 25,
+          "suggest_timer": true,
+          "timer_options": [
+            25,
+            30
+          ],
+          "needs": [
+            {
+              "label": "השוקיים המושחמות"
+            },
+            {
+              "label": "רוטב העגבניות שבסיר"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "מוסיפים זיתים",
+          "instruction": "מוסיפים 200–250 גרם זיתים, מכסים חלקית ומבשלים עוד 15–20 דקות עד שהשוקיים רכות והרוטב מסמיך.",
+          "ingredient_refs": [
+            "olives"
+          ],
+          "timer_minutes": 15,
+          "suggest_timer": true,
+          "timer_options": [
+            15,
+            20
+          ],
+          "needs": [
+            {
+              "label": "תבשיל השוקיים"
+            },
+            {
+              "ingredient_ref": "olives"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "מתקנים ונחים",
+          "instruction": "טועמים ורק אז מוסיפים מלח אם צריך. אם חמצמץ מוסיפים 1 כפית סוכר/דבש ומבשלים 2–3 דקות. מכבים, מפזרים חופן עשבי תיבול ונותנים לנוח 10 דקות.",
+          "ingredient_refs": [
+            "salt",
+            "sugar",
+            "herbs"
+          ],
+          "timer_minutes": 10,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "התבשיל המוכן"
+            },
+            {
+              "ingredient_ref": "sugar"
+            },
+            {
+              "ingredient_ref": "herbs"
+            }
+          ]
+        }
+      ],
+      "variations": [],
+      "storage": {},
+      "notes": [],
+      "image": "./images/recipes/drumsticks-tomato-olives.webp"
+    },
+    {
+      "id": "chocolate-birthday-cake",
+      "name": "עוגת שוקולד פרווה ליום הולדת",
+      "category": "קינוחים",
+      "servings": "תבנית עגולה 24 ס״מ או 20×30 ס״מ",
+      "tags": [
+        "פרווה",
+        "יום הולדת",
+        "שוקולד",
+        "מתאים להכנה מראש"
+      ],
+      "times": {
+        "prep_minutes": 25,
+        "bake_minutes": "35–40",
+        "chill_minutes": "240+"
+      },
+      "ingredient_groups": [
+        {
+          "name": "לעוגה",
+          "items": [
+            {
+              "id": "flour",
+              "name": "קמח",
+              "quantity": "245",
+              "unit": "גרם",
+              "display": "1¾ כוסות (245 גרם) קמח"
+            },
+            {
+              "id": "cocoa",
+              "name": "קקאו",
+              "quantity": "30",
+              "unit": "גרם",
+              "display": "⅓ כוס (30 גרם) קקאו"
+            },
+            {
+              "id": "chocolit",
+              "name": "שוקולית",
+              "quantity": "20",
+              "unit": "גרם",
+              "display": "¼ כוס (20 גרם) שוקולית"
+            },
+            {
+              "id": "baking_powder",
+              "name": "אבקת אפייה",
+              "quantity": "10",
+              "unit": "גרם",
+              "display": "1 שקית (10 גרם) אבקת אפייה"
+            },
+            {
+              "id": "salt",
+              "name": "מלח",
+              "quantity": "1",
+              "unit": "קורט",
+              "display": "קורט מלח"
+            },
+            {
+              "id": "eggs",
+              "name": "ביצים",
+              "quantity": "2",
+              "unit": "גדולות",
+              "display": "2 ביצים גדולות"
+            },
+            {
+              "id": "sugar",
+              "name": "סוכר",
+              "quantity": "180",
+              "unit": "גרם",
+              "display": "180 גרם סוכר"
+            },
+            {
+              "id": "oil",
+              "name": "שמן קנולה",
+              "quantity": "120",
+              "unit": "מ״ל",
+              "display": "½ כוס (120 מ״ל) שמן קנולה"
+            },
+            {
+              "id": "vanilla_cake",
+              "name": "תמצית וניל",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית תמצית וניל"
+            },
+            {
+              "id": "boiling_water",
+              "name": "מים רותחים",
+              "quantity": "240",
+              "unit": "מ״ל",
+              "display": "1 כוס (240 מ״ל) מים רותחים"
+            }
+          ]
+        },
+        {
+          "name": "סירופ",
+          "items": [
+            {
+              "id": "syrup_water",
+              "name": "מים",
+              "quantity": "1/3",
+              "unit": "כוס",
+              "display": "⅓ כוס מים"
+            },
+            {
+              "id": "syrup_sugar",
+              "name": "סוכר",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף סוכר"
+            }
+          ]
+        },
+        {
+          "name": "גנאש מוקצף",
+          "items": [
+            {
+              "id": "cream",
+              "name": "שמנת צמחית להקצפה",
+              "quantity": "250",
+              "unit": "מ״ל",
+              "display": "250 מ״ל שמנת צמחית קרה"
+            },
+            {
+              "id": "chocolate",
+              "name": "שוקולד מריר 40%",
+              "quantity": "150",
+              "unit": "גרם",
+              "display": "150 גרם שוקולד מריר 40% קקאו"
+            },
+            {
+              "id": "powdered_sugar",
+              "name": "אבקת סוכר",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף אבקת סוכר"
+            },
+            {
+              "id": "vanilla_cream",
+              "name": "תמצית וניל",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית תמצית וניל"
+            },
+            {
+              "id": "decorations",
+              "name": "סוכריות / שבבי שוקולד",
+              "display": "סוכריות או שבבי שוקולד לקישוט",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מערבבים עוגה",
+          "instruction": "מחממים תנור ל־170°C ומשמנים תבנית. טורפים 2 ביצים עם 180 גרם סוכר 2–3 דקות. מוסיפים 120 מ״ל שמן ו־1 כפית וניל.",
+          "ingredient_refs": [
+            "eggs",
+            "sugar",
+            "oil",
+            "vanilla_cake"
+          ],
+          "timer_minutes": 3
+        },
+        {
+          "id": 2,
+          "title": "יבשים ומים",
+          "instruction": "מנפים 245 גרם קמח, 30 גרם קקאו, 20 גרם שוקולית, 10 גרם אבקת אפייה וקורט מלח. מערבבים כמעט עד אחידות ומוסיפים בהדרגה 240 מ״ל מים רותחים עד בלילה חלקה.",
+          "ingredient_refs": [
+            "flour",
+            "cocoa",
+            "chocolit",
+            "baking_powder",
+            "salt",
+            "boiling_water"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "אופים",
+          "instruction": "יוצקים לתבנית ואופים 35–40 דקות, עד שקיסם יוצא עם פירורים לחים. מצננים כ־10 דקות.",
+          "ingredient_refs": [
+            "flour"
+          ],
+          "timer_minutes": 35,
+          "suggest_timer": true,
+          "timer_options": [
+            35,
+            40
+          ]
+        },
+        {
+          "id": 4,
+          "title": "סירופ",
+          "instruction": "מערבבים ⅓ כוס מים עם 1 כף סוכר עד המסה ומברישים על העוגה החמימה. נותנים להיספג 10–15 דקות ומקררים/מכסים.",
+          "ingredient_refs": [
+            "syrup_water",
+            "syrup_sugar"
+          ],
+          "timer_minutes": 10,
+          "suggest_timer": true,
+          "timer_options": [
+            10,
+            15
+          ],
+          "needs": [
+            {
+              "label": "העוגה האפויה והחמימה"
+            },
+            {
+              "ingredient_ref": "syrup_water"
+            },
+            {
+              "ingredient_ref": "syrup_sugar"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "מכינים גנאש",
+          "instruction": "מחממים 250 מ״ל שמנת צמחית כמעט לרתיחה ויוצקים על 150 גרם שוקולד 40%. ממתינים 2 דקות, מערבבים לגנאש חלק ומוסיפים 1 כפית וניל. מכסים ומקררים לפחות 4 שעות, עדיף לילה.",
+          "ingredient_refs": [
+            "cream",
+            "chocolate",
+            "vanilla_cream"
+          ],
+          "timer_minutes": 240,
+          "suggest_timer": true
+        },
+        {
+          "id": 6,
+          "title": "מקציפים",
+          "instruction": "אם הגנאש קשה מאוד, נותנים לו לעמוד 15–20 דקות בחוץ. מקציפים במהירות בינונית; אחרי 20–30 שניות מוסיפים 1 כף אבקת סוכר. ממשיכים רק עד קרם יציב ונוח למריחה — בדרך כלל 2–4 דקות במיקסר ידני או 1–3 דקות בעומד.",
+          "ingredient_refs": [
+            "powdered_sugar",
+            "cream",
+            "chocolate"
+          ],
+          "needs": [
+            {
+              "label": "הגנאש הקר"
+            },
+            {
+              "ingredient_ref": "powdered_sugar"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "מקשטים ומקררים",
+          "instruction": "מורחים את הגנאש על העוגה. מפזרים מיד סוכריות או שבבי שוקולד כשהקרם עדיין רך, ואז מקררים שעה–שעתיים. מוציאים כ־20 דקות לפני ההגשה.",
+          "ingredient_refs": [
+            "decorations"
+          ],
+          "timer_minutes": 60,
+          "suggest_timer": true,
+          "timer_options": [
+            60,
+            120
+          ],
+          "needs": [
+            {
+              "label": "העוגה המצוננת"
+            },
+            {
+              "label": "הגנאש המוקצף"
+            },
+            {
+              "ingredient_ref": "decorations"
+            }
+          ]
+        }
+      ],
+      "variations": [],
+      "storage": {
+        "refrigerator": "העוגה מתאימה להכנה יום מראש. לאחר הציפוי לשמור במקרר."
+      },
+      "notes": [],
+      "image": "./images/recipes/chocolate-birthday-cake.webp"
+    },
+    {
+      "id": "onion-leek-parve-pie",
+      "name": "פשטידת בצל וכרישה פרווה",
+      "category": "פשטידות ומאפים",
+      "servings": "תבנית עגולה 24 ס״מ או מלבנית בינונית",
+      "tags": [
+        "פרווה",
+        "צמחוני",
+        "תנור"
+      ],
+      "times": {
+        "prep_minutes": 25,
+        "bake_minutes": "35–45",
+        "rest_minutes": 15
+      },
+      "ingredient_groups": [
+        {
+          "name": "מצרכים",
+          "items": [
+            {
+              "id": "leek",
+              "name": "כרישה",
+              "quantity": "1",
+              "display": "1 כרישה, החלק הלבן והירוק הבהיר"
+            },
+            {
+              "id": "onions",
+              "name": "בצלים",
+              "quantity": "4",
+              "unit": "בינוניים",
+              "display": "4 בצלים בינוניים"
+            },
+            {
+              "id": "olive_oil",
+              "name": "שמן זית",
+              "quantity": "4",
+              "unit": "כפות",
+              "display": "4 כפות שמן זית"
+            },
+            {
+              "id": "eggs",
+              "name": "ביצים",
+              "quantity": "4",
+              "display": "4 ביצים"
+            },
+            {
+              "id": "flour",
+              "name": "קמח",
+              "quantity": "3/4",
+              "unit": "כוס",
+              "display": "¾ כוס קמח"
+            },
+            {
+              "id": "baking_powder",
+              "name": "אבקת אפייה",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית אבקת אפייה"
+            },
+            {
+              "id": "plant_milk",
+              "name": "חלב צמחי לא ממותק או מים",
+              "quantity": "1/2",
+              "unit": "כוס",
+              "display": "½ כוס חלב צמחי לא ממותק או מים"
+            },
+            {
+              "id": "mayo",
+              "name": "מיונז פרווה",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות מיונז פרווה"
+            },
+            {
+              "id": "salt",
+              "name": "מלח",
+              "quantity": "3/4",
+              "unit": "כפית",
+              "display": "¾ כפית מלח"
+            },
+            {
+              "id": "pepper",
+              "name": "פלפל שחור",
+              "quantity": "1/4",
+              "unit": "כפית",
+              "display": "¼ כפית פלפל שחור"
+            },
+            {
+              "id": "nutmeg",
+              "name": "אגוז מוסקט",
+              "quantity": "1",
+              "unit": "קורט",
+              "display": "קורט אגוז מוסקט",
+              "optional": true
+            },
+            {
+              "id": "breadcrumbs",
+              "name": "פירורי לחם",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות פירורי לחם לתבנית",
+              "optional": true
+            },
+            {
+              "id": "grease",
+              "name": "שמן לשימון",
+              "display": "מעט שמן לשימון התבנית"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מכינים תבנית",
+          "instruction": "מחממים תנור ל־180°C, משמנים במעט שמן, ואם רוצים מפזרים 2 כפות פירורי לחם.",
+          "ingredient_refs": [
+            "grease",
+            "breadcrumbs"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "חותכים",
+          "instruction": "חוצים ושוטפים היטב 1 כרישה ופורסים דק. פורסים 4 בצלים לרצועות דקות.",
+          "ingredient_refs": [
+            "leek",
+            "onions"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "מטגנים",
+          "instruction": "מחממים 4 כפות שמן זית ומטגנים 4 בצלים כ־10 דקות. מוסיפים 1 כרישה ומטגנים עוד 8–10 דקות. מצננים כ־10 דקות.",
+          "ingredient_refs": [
+            "olive_oil",
+            "onions",
+            "leek"
+          ],
+          "timer_minutes": 20
+        },
+        {
+          "id": 4,
+          "title": "בלילה רטובה",
+          "instruction": "טורפים 4 ביצים עם ½ כוס חלב צמחי/מים ו־2 כפות מיונז פרווה.",
+          "ingredient_refs": [
+            "eggs",
+            "plant_milk",
+            "mayo"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "יבשים",
+          "instruction": "מוסיפים ¾ כוס קמח, 1 כפית אבקת אפייה, ¾ כפית מלח, ¼ כפית פלפל וקורט אגוז מוסקט אופציונלי. מערבבים עד שאין גושים גדולים.",
+          "ingredient_refs": [
+            "flour",
+            "baking_powder",
+            "salt",
+            "pepper",
+            "nutmeg"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "מאחדים ואופים",
+          "instruction": "מוסיפים את הבצל והכרישה המטוגנים, מערבבים, מעבירים לתבנית ואופים 35–45 דקות עד הזהבה ויציבות.",
+          "ingredient_refs": [
+            "onions",
+            "leek"
+          ],
+          "timer_minutes": 35,
+          "suggest_timer": true,
+          "timer_options": [
+            35,
+            45
+          ],
+          "needs": [
+            {
+              "label": "בלילת הפשטידה עם הבצל והכרישה"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "נותנים להתייצב",
+          "instruction": "מוציאים מהתנור ונותנים לפשטידה להתייצב כ־15 דקות לפני החיתוך.",
+          "ingredient_refs": [],
+          "timer_minutes": 15,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "הפשטידה האפויה"
+            }
+          ]
+        }
+      ],
+      "variations": [],
+      "storage": {},
+      "notes": [
+        "המיונז מוסיף שומן ולחות ואינו אמור לתת טעם של מיונז."
+      ],
+      "image": "./images/recipes/onion-leek-parve-pie.webp"
+    },
+    {
+      "id": "green-vegetable-medley",
+      "name": "שעועית ירוקה, ברוקולי וכרובית בתיבול עדין",
+      "category": "תוספות",
+      "servings": "לפי הכמות שיש",
+      "tags": [
+        "פרווה",
+        "ירקות",
+        "מהיר",
+        "תוספת"
+      ],
+      "times": {
+        "prep_minutes": 10,
+        "cook_minutes": 10
+      },
+      "ingredient_groups": [
+        {
+          "name": "ירקות",
+          "items": [
+            {
+              "id": "green_beans",
+              "name": "שעועית ירוקה קפואה",
+              "quantity": "40",
+              "unit": "%",
+              "display": "כ־40% מכמות הירקות הכוללת"
+            },
+            {
+              "id": "broccoli",
+              "name": "ברוקולי קפוא",
+              "quantity": "30",
+              "unit": "%",
+              "display": "כ־30% מכמות הירקות הכוללת"
+            },
+            {
+              "id": "cauliflower",
+              "name": "כרובית קפואה",
+              "quantity": "30",
+              "unit": "%",
+              "display": "כ־30% מכמות הירקות הכוללת"
+            }
+          ]
+        },
+        {
+          "name": "תיבול",
+          "items": [
+            {
+              "id": "olive_oil",
+              "name": "שמן זית",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות שמן זית"
+            },
+            {
+              "id": "salt",
+              "name": "מלח",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית מלח, או לפי הטעם"
+            },
+            {
+              "id": "pepper",
+              "name": "פלפל שחור",
+              "display": "מעט פלפל שחור"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "1/2 כפית / 1 שן",
+              "display": "½ כפית שום כתוש או שן שום קטנה"
+            },
+            {
+              "id": "lemon",
+              "name": "מיץ לימון",
+              "display": "סחיטה קטנה של לימון",
+              "optional": true
+            },
+            {
+              "id": "parsley",
+              "name": "פטרוזיליה",
+              "display": "מעט פטרוזיליה קצוצה",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מבשלים כרובית וברוקולי",
+          "instruction": "מרתיחים מים עם מעט מתוך ½ כפית המלח. מבשלים את כ־30% הברוקולי וכ־30% הכרובית 4–5 דקות.",
+          "ingredient_refs": [
+            "broccoli",
+            "cauliflower",
+            "salt"
+          ],
+          "timer_minutes": 5
+        },
+        {
+          "id": 2,
+          "title": "מבשלים שעועית",
+          "instruction": "מוסיפים/מבשלים בנפרד את כ־40% השעועית הירוקה 5–6 דקות, לפי העדינות שלה. מסננים היטב את כל הירקות.",
+          "ingredient_refs": [
+            "green_beans"
+          ],
+          "timer_minutes": 6
+        },
+        {
+          "id": 3,
+          "title": "מתבלים",
+          "instruction": "מערבבים את הירקות המסוננים עם 2 כפות שמן זית, יתרת ½ כפית המלח, מעט פלפל ו־½ כפית שום כתוש או שן שום קטנה. מוסיפים סחיטה קטנה של לימון ופטרוזיליה אם רוצים.",
+          "ingredient_refs": [
+            "olive_oil",
+            "salt",
+            "pepper",
+            "garlic",
+            "lemon",
+            "parsley"
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "title": "גרסה חגיגית יותר",
+          "description": "אחרי הסינון מקפיצים את הירקות 3–4 דקות במחבת עם 2 כפות שמן הזית והשום, ואז מתבלים."
+        },
+        {
+          "title": "תירס",
+          "description": "אפשר להוסיף מעט תירס; עדיף בכמות קטנה כדי שהמתיקות לא תשתלט."
+        }
+      ],
+      "storage": {},
+      "notes": [],
+      "image": "./images/recipes/green-vegetable-medley.webp"
+    },
+    {
+      "id": "hen-chicken-thighs-sweet-potato-onion",
+      "name": "פרגיות עם בטטה ובצל",
+      "category": "עוף",
+      "servings": "6 סועדים",
+      "tags": [
+        "בשרי",
+        "תנור",
+        "ארוחה בתבנית אחת",
+        "לשבת"
+      ],
+      "times": {
+        "prep_minutes": 15,
+        "bake_minutes": 60
+      },
+      "source": {
+        "name": "חן במטבח",
+        "author": "חן מזרחי",
+        "url": "https://heninthekitchen.com/blog/2026/02/18/%D7%A4%D7%A8%D7%92%D7%99%D7%95%D7%AA-%D7%A2%D7%9D-%D7%91%D7%98%D7%98%D7%94-%D7%95%D7%91%D7%A6%D7%9C/"
+      },
+      "ingredient_groups": [
+        {
+          "name": "מצרכים",
+          "items": [
+            {
+              "id": "chicken_thighs",
+              "name": "פרגיות",
+              "quantity": "1",
+              "unit": "ק״ג",
+              "display": "1 ק״ג פרגיות"
+            },
+            {
+              "id": "sweet_potatoes",
+              "name": "בטטות קטנות",
+              "quantity": "4–5",
+              "unit": "קטנות",
+              "display": "4–5 בטטות קטנות, כ־600 גרם, חצויות/חתוכות לרבעים או לחתיכות בינוניות–גדולות",
+              "notes": "אפשר להשאיר את הקליפה; יש לשטוף היטב."
+            },
+            {
+              "id": "red_onions",
+              "name": "בצל סגול",
+              "quantity": "2",
+              "unit": "בצלים",
+              "display": "2 בצלים סגולים קלופים, חתוכים לרבעים"
+            },
+            {
+              "id": "silan",
+              "name": "סילאן",
+              "quantity": "1/4",
+              "unit": "כוס",
+              "display": "¼ כוס סילאן"
+            },
+            {
+              "id": "soy",
+              "name": "רוטב סויה",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות רוטב סויה"
+            },
+            {
+              "id": "olive_oil",
+              "name": "שמן זית",
+              "quantity": "1/4",
+              "unit": "כוס",
+              "display": "¼ כוס שמן זית"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "4",
+              "unit": "שיניים",
+              "display": "4 שיני שום כתושות"
+            },
+            {
+              "id": "paprika",
+              "name": "פפריקה מתוקה",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף פפריקה מתוקה"
+            },
+            {
+              "id": "tuscany_spice",
+              "name": "תבלין טוסקנה",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף תבלין טוסקנה",
+              "optional": true,
+              "notes": "לא חובה; אפשר להחליף בתוספת קטנה של פפריקה."
+            },
+            {
+              "id": "cornstarch",
+              "name": "קורנפלור",
+              "quantity": "1.5",
+              "unit": "כפות",
+              "display": "1½ כפות קורנפלור"
+            },
+            {
+              "id": "salt",
+              "name": "מלח",
+              "quantity": "2",
+              "unit": "כפיות",
+              "display": "2 כפיות מלח"
+            },
+            {
+              "id": "black_pepper",
+              "name": "פלפל שחור",
+              "quantity": "1/4",
+              "unit": "כפית",
+              "display": "¼ כפית פלפל שחור טחון"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מחממים את התנור",
+          "instruction": "מחממים תנור ל־200°C בחום עליון ותחתון.",
+          "ingredient_refs": []
+        },
+        {
+          "id": 2,
+          "title": "מכינים את תערובת הסויה",
+          "instruction": "מערבבים היטב 2 כפות רוטב סויה עם 1½ כפות קורנפלור, עד שהקורנפלור נמס ואין גושים.",
+          "ingredient_refs": [
+            "soy",
+            "cornstarch"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "מערבבים הכול בתבנית",
+          "instruction": "מניחים בתבנית או בסיר שמתאים לתנור 1 ק״ג פרגיות, 4–5 בטטות קטנות (כ־600 גרם) ו־2 בצלים סגולים. מוסיפים את תערובת הסויה והקורנפלור, ¼ כוס סילאן, ¼ כוס שמן זית, 4 שיני שום כתושות, 1 כף פפריקה מתוקה, 1 כף תבלין טוסקנה אופציונלי, 2 כפיות מלח ו־¼ כפית פלפל שחור ומערבבים היטב.",
+          "ingredient_refs": [
+            "chicken_thighs",
+            "sweet_potatoes",
+            "red_onions",
+            "soy",
+            "cornstarch",
+            "silan",
+            "olive_oil",
+            "garlic",
+            "paprika",
+            "tuscany_spice",
+            "salt",
+            "black_pepper"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "צולים עד שהכול שחום ורך",
+          "instruction": "צולים ב־200°C בערך שעה, עד שהפרגיות שחומות והבטטות רכות. במהלך הצלייה מרטיבים מדי פעם את הפרגיות, הבטטות והבצל ברוטב שבתחתית התבנית בעזרת כף או מברשת.",
+          "ingredient_refs": [
+            "chicken_thighs",
+            "sweet_potatoes",
+            "red_onions"
+          ],
+          "timer_minutes": 60,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "התבנית המוכנה לצלייה"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "מגישים",
+          "instruction": "מגישים חם; מתאים במיוחד לצד פירה או אורז לבן.",
+          "ingredient_refs": []
+        }
+      ],
+      "variations": [
+        {
+          "title": "בלי תבלין טוסקנה",
+          "description": "אפשר לוותר על 1 כף תבלין טוסקנה ולהוסיף במקום מעט פפריקה מתוקה."
+        }
+      ],
+      "storage": {},
+      "notes": [],
+      "image": "./images/recipes/hen-chicken-thighs-sweet-potato-onion.webp"
+    },
+    {
+      "id": "hen-easy-perfect-lasagna",
+      "name": "לזניה קלה ומושלמת",
+      "category": "פשטידות ומאפים",
+      "servings": "6–8 סועדים",
+      "tags": [
+        "חלבי",
+        "תנור",
+        "פסטה",
+        "מתאים להכנה מראש",
+        "לשבת"
+      ],
+      "times": {
+        "prep_minutes": 25,
+        "bake_minutes": "45–60",
+        "rest_minutes": 15
+      },
+      "source": {
+        "name": "חן במטבח",
+        "author": "חן מזרחי",
+        "url": "https://heninthekitchen.com/blog/2018/05/02/%D7%A4%D7%A8%D7%A7-50-%D7%9C%D7%96%D7%A0%D7%99%D7%94/"
+      },
+      "ingredient_groups": [
+        {
+          "name": "להרכבת הלזניה",
+          "items": [
+            {
+              "id": "lasagna_sheets",
+              "name": "דפי לזניה",
+              "quantity": "~15",
+              "display": "כ־15 דפי לזניה"
+            },
+            {
+              "id": "yellow_cheese",
+              "name": "גבינה צהובה מגורדת",
+              "quantity": "200",
+              "unit": "גרם",
+              "display": "200 גרם גבינה צהובה מגורדת"
+            },
+            {
+              "id": "mozzarella",
+              "name": "מוצרלה מגורדת",
+              "quantity": "100",
+              "unit": "גרם",
+              "display": "100 גרם גבינת מוצרלה מגורדת"
+            },
+            {
+              "id": "parmesan",
+              "name": "פרמזן מגורד",
+              "quantity": "100",
+              "unit": "גרם",
+              "display": "100 גרם גבינת פרמזן מגורדת"
+            },
+            {
+              "id": "basil",
+              "name": "בזיליקום",
+              "quantity": "~10",
+              "unit": "עלים",
+              "display": "כ־10 עלי בזיליקום קצוצים"
+            }
+          ]
+        },
+        {
+          "name": "לרוטב העגבניות",
+          "items": [
+            {
+              "id": "crushed_tomatoes",
+              "name": "עגבניות מרוסקות",
+              "quantity": "800",
+              "unit": "גרם",
+              "display": "2 קופסאות עגבניות מרוסקות, סה״כ 800 גרם",
+              "notes": "אפשר להשתמש בעגבניות שלמות משומרות ולטחון בבלנדר."
+            },
+            {
+              "id": "tomato_paste",
+              "name": "רסק עגבניות",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף רסק עגבניות"
+            },
+            {
+              "id": "tomato_garlic",
+              "name": "שום",
+              "quantity": "4",
+              "unit": "שיניים",
+              "display": "4 שיני שום כתושות"
+            },
+            {
+              "id": "tomato_oil",
+              "name": "שמן זית",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות שמן זית"
+            },
+            {
+              "id": "oregano",
+              "name": "אורגנו יבש",
+              "quantity": "2",
+              "unit": "כפיות",
+              "display": "2 כפיות שטוחות אורגנו יבש"
+            },
+            {
+              "id": "sugar",
+              "name": "סוכר",
+              "quantity": "2",
+              "unit": "כפיות",
+              "display": "2 כפיות סוכר"
+            },
+            {
+              "id": "tomato_salt",
+              "name": "מלח",
+              "quantity": "2",
+              "unit": "כפיות",
+              "display": "2 כפיות שטוחות מלח, או לפי הטעם"
+            },
+            {
+              "id": "tomato_pepper",
+              "name": "פלפל שחור",
+              "quantity": "1/4",
+              "unit": "כפית",
+              "display": "כ־¼ כפית פלפל שחור טחון, או לפי הטעם"
+            }
+          ]
+        },
+        {
+          "name": "לרוטב הבשמל",
+          "items": [
+            {
+              "id": "butter",
+              "name": "חמאה",
+              "quantity": "50",
+              "unit": "גרם",
+              "display": "3 כפות חמאה (50 גרם)"
+            },
+            {
+              "id": "flour",
+              "name": "קמח",
+              "quantity": "3",
+              "unit": "כפות",
+              "display": "3 כפות קמח"
+            },
+            {
+              "id": "milk",
+              "name": "חלב",
+              "quantity": "3",
+              "unit": "כוסות",
+              "display": "3 כוסות חלב"
+            },
+            {
+              "id": "bechamel_salt",
+              "name": "מלח",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית מלח, או לפי הטעם"
+            },
+            {
+              "id": "bechamel_pepper",
+              "name": "פלפל שחור",
+              "display": "מעט פלפל שחור טחון"
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מחממים את התנור",
+          "instruction": "מחממים תנור ל־180°C. מכינים תבנית מלבנית בגודל 23×33 ס״מ.",
+          "ingredient_refs": []
+        },
+        {
+          "id": 2,
+          "title": "מכינים את רוטב העגבניות",
+          "instruction": "מערבבים בקערה 800 גרם עגבניות מרוסקות, 1 כף רסק עגבניות, 4 שיני שום כתושות, 2 כפות שמן זית, 2 כפיות שטוחות אורגנו, 2 כפיות סוכר, 2 כפיות שטוחות מלח וכ־¼ כפית פלפל שחור עד שהרוטב אחיד.",
+          "ingredient_refs": [
+            "crushed_tomatoes",
+            "tomato_paste",
+            "tomato_garlic",
+            "tomato_oil",
+            "oregano",
+            "sugar",
+            "tomato_salt",
+            "tomato_pepper"
+          ]
+        },
+        {
+          "id": 3,
+          "title": "מתחילים את הבשמל",
+          "instruction": "מחממים מעט 3 כוסות חלב. בסיר עמוק ורחב על אש נמוכה ממיסים 3 כפות חמאה (50 גרם).",
+          "ingredient_refs": [
+            "milk",
+            "butter"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "מוסיפים קמח",
+          "instruction": "מוסיפים לחמאה המומסת 3 כפות קמח וטורפים במשך כחצי דקה עד דקה, עד שמתקבלת תערובת אחידה וסמיכה מאוד.",
+          "ingredient_refs": [
+            "butter",
+            "flour"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "מסיימים את הבשמל",
+          "instruction": "מוסיפים בהדרגה 3 כוסות חלב מחומם תוך טריפה. ממשיכים לערבב עד שהרוטב מגיע לרתיחה ומסמיך מעט, כ־1–3 דקות. מסירים מהאש ומתבלים ב־1 כפית מלח ובמעט פלפל שחור.",
+          "ingredient_refs": [
+            "milk",
+            "bechamel_salt",
+            "bechamel_pepper"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "מתחילים להרכיב",
+          "instruction": "מורחים כמה כפות מרוטב העגבניות בתחתית תבנית 23×33 ס״מ ומסדרים מעל דפי לזניה מתוך כ־15 הדפים, כך שיכסו את התחתית.",
+          "ingredient_refs": [
+            "crushed_tomatoes",
+            "lasagna_sheets"
+          ],
+          "needs": [
+            {
+              "label": "רוטב העגבניות המוכן"
+            },
+            {
+              "label": "הבשמל המוכן"
+            },
+            {
+              "ingredient_ref": "lasagna_sheets"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "בונים ארבע שכבות",
+          "instruction": "על כל שכבת דפי לזניה יוצקים כרבע מרוטב העגבניות וכרבע מרוטב הבשמל, מפזרים כרבע מכמות 200 גרם הגבינה הצהובה, 100 גרם המוצרלה ו־100 גרם הפרמזן, ומעט מתוך כ־10 עלי הבזיליקום הקצוצים. חוזרים על הסדר עד שנוצרות בסך הכול 4 שכבות דפי לזניה; מסיימים ברוטב עגבניות, בשמל, בזיליקום וגבינות. חשוב שהרטבים יכסו היטב את הדפים.",
+          "ingredient_refs": [
+            "lasagna_sheets",
+            "yellow_cheese",
+            "mozzarella",
+            "parmesan",
+            "basil",
+            "crushed_tomatoes",
+            "tomato_paste",
+            "tomato_garlic",
+            "tomato_oil",
+            "oregano",
+            "sugar",
+            "tomato_salt",
+            "tomato_pepper",
+            "butter",
+            "flour",
+            "milk",
+            "bechamel_salt",
+            "bechamel_pepper"
+          ],
+          "needs": [
+            {
+              "label": "רוטב העגבניות המוכן"
+            },
+            {
+              "label": "הבשמל המוכן"
+            },
+            {
+              "ingredient_ref": "lasagna_sheets"
+            },
+            {
+              "ingredient_ref": "yellow_cheese"
+            },
+            {
+              "ingredient_ref": "mozzarella"
+            },
+            {
+              "ingredient_ref": "parmesan"
+            },
+            {
+              "ingredient_ref": "basil"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "אופים",
+          "instruction": "אופים ב־180°C במשך 45–60 דקות, עד שהשכבה העליונה משחימה מעט. אפשר להפעיל טיימר ל־45 דקות ואז לבדוק ולהמשיך לפי הצורך.",
+          "ingredient_refs": [
+            "lasagna_sheets",
+            "yellow_cheese",
+            "mozzarella",
+            "parmesan"
+          ],
+          "timer_minutes": 45,
+          "suggest_timer": true,
+          "timer_options": [
+            45,
+            60
+          ],
+          "needs": [
+            {
+              "label": "הלזניה המורכבת"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "title": "נותנים ללזניה לנוח",
+          "instruction": "מוציאים מהתנור וממתינים כ־15 דקות לפני החיתוך וההגשה.",
+          "ingredient_refs": [],
+          "timer_minutes": 15,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "הלזניה האפויה"
+            }
+          ]
+        }
+      ],
+      "variations": [
+        {
+          "title": "הכנה מראש",
+          "description": "אפשר להרכיב את הלזניה מראש ולשמור במקרר. כשמוכנים להגיש, אופים ישירות מהמקרר ומוסיפים בערך 5–10 דקות לזמן האפייה."
+        },
+        {
+          "title": "גרסת ריקוטה",
+          "description": "אפשר להכין בשמל קטן יותר מ־2 כפות חמאה, 2 כפות קמח ו־2 כוסות חלב, ולהוסיף בין השכבות תלוליות מתוך 250 גרם גבינת ריקוטה."
+        }
+      ],
+      "storage": {
+        "refrigerator": "אפשר להרכיב מראש ולשמור במקרר עד האפייה; באפייה מהמקרר יש להוסיף כ־5–10 דקות."
+      },
+      "notes": [
+        "מתאים לתבנית מלבנית בגודל 23×33 ס״מ.",
+        "הכמויות במתכון מבוססות על כוס מדידה של 250 מ״ל."
+      ],
+      "image": "./images/recipes/hen-easy-perfect-lasagna.webp"
+    }
+  ]
+}
