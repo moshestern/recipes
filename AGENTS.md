@@ -102,6 +102,31 @@ Update recipe: חריימה מנסיכת הנילוס
 
 The PR description should summarize the recipe/content changes and state that validation passes.
 
+## Codex code review instructions
+
+When reviewing a Pull Request in this repository, prioritize correctness of the recipe archive and the mobile website over generic style comments.
+
+Review the complete diff and relevant surrounding code/data. Report only actionable issues that could cause incorrect recipe content, broken UX, inconsistent data, regressions, or deployment problems.
+
+Check especially for:
+
+1. **Recipe fidelity** — quantities, temperatures, durations and final user decisions must not be silently changed or invented.
+2. **Ingredient consistency** — every ingredient used in preparation should exist in the ingredient list; quantities should be repeated naturally in the relevant steps; `ingredient_refs` must match the intended ingredients.
+3. **Intermediate components** — assembly steps should use `needs` for prepared components when appropriate instead of incorrectly re-listing raw ingredients.
+4. **Timers** — `suggest_timer` should only be enabled when useful, and timer values/ranges must agree with the preparation text.
+5. **Kosher consistency** — meat recipes must not accidentally introduce dairy ingredients or dairy tags.
+6. **Sources** — externally sourced recipes should preserve factual recipe details, include valid source metadata, and avoid unnecessary verbatim copying.
+7. **Images** — new recipes should have `images/recipes/<id>.webp`; the JSON image path and recipe `id` must stay in sync.
+8. **Schema and validation** — changes must remain compatible with `scripts/validate-recipes.mjs`; flag cases where the validator passes but semantic references are still clearly wrong.
+9. **UI regressions** — verify search, category/tag filtering, recipe detail routing and cooking mode are not broken by changes to `app.js`, `styles.css`, `index.html`, or recipe fields.
+10. **Mobile UX** — pay special attention to narrow-screen layout, touch targets, bottom sheets/popovers, cooking-mode readability and timer controls.
+11. **GitHub Pages compatibility** — keep the site static and compatible with deployment from the repository root; avoid absolute paths or routing changes that would break `recipes.moshestern.co.il` or GitHub Pages.
+12. **Scope discipline** — flag unrelated changes bundled into a recipe PR when they increase risk or make review harder.
+
+Do not request changes solely for personal formatting preferences when the existing repository conventions are internally consistent.
+
+If no meaningful issue is found, approve or clearly state that no actionable problems were identified.
+
 ## Before finishing
 
 Always verify:
