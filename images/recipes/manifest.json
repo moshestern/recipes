@@ -1,0 +1,127 @@
+{
+  "pesto-homemade": {
+    "source": "rustic_homemade_pesto_with_fresh_ingredients.png",
+    "output": "images/recipes/pesto-homemade.webp",
+    "bytes": 155886
+  },
+  "cauliflower-onion-parve-pie": {
+    "source": "golden_cauliflower_phyllo_pie.png",
+    "output": "images/recipes/cauliflower-onion-parve-pie.webp",
+    "bytes": 237214
+  },
+  "chicken-fried-rice": {
+    "source": "glossy_chicken_stir_fry_with_rice.png",
+    "output": "images/recipes/chicken-fried-rice.webp",
+    "bytes": 222840
+  },
+  "chicken-potatoes-oven": {
+    "source": "rustic_herb_roasted_chicken_dinner.png",
+    "output": "images/recipes/chicken-potatoes-oven.webp",
+    "bytes": 287472
+  },
+  "chicken-potatoes-stirfry": {
+    "source": "rustic_chicken_potato_stir_fry_bowl.png",
+    "output": "images/recipes/chicken-potatoes-stirfry.webp",
+    "bytes": 272718
+  },
+  "sirloin-noodles": {
+    "source": "glossy_beef_noodles_with_peppers_and_scallions.png",
+    "output": "images/recipes/sirloin-noodles.webp",
+    "bytes": 244906
+  },
+  "zucchini-yogurt-pie": {
+    "source": "golden_zucchini_herb_bake_slice.png",
+    "output": "images/recipes/zucchini-yogurt-pie.webp",
+    "bytes": 249432
+  },
+  "veal-shank-red-wine-soy": {
+    "source": "rustic_braised_beef_stew.png",
+    "output": "images/recipes/veal-shank-red-wine-soy.webp",
+    "bytes": 264500
+  },
+  "basmati-rice": {
+    "source": "rustic_herb_sprinkled_rice_bowl.png",
+    "output": "images/recipes/basmati-rice.webp",
+    "bytes": 169688
+  },
+  "bolognese": {
+    "source": "rustic_basil_topped_bolognese_bowl.png",
+    "output": "images/recipes/bolognese.webp",
+    "bytes": 222330
+  },
+  "roasted-vegetables": {
+    "source": "herb_roasted_vegetable_medley.png",
+    "output": "images/recipes/roasted-vegetables.webp",
+    "bytes": 285146
+  },
+  "chicken-noodles": {
+    "source": "glistening_chicken_noodle_stir_fry.png",
+    "output": "images/recipes/chicken-noodles.webp",
+    "bytes": 236784
+  },
+  "meat-filo-roll": {
+    "source": "crispy_sesame_meat_filled_phyllo_roll.png",
+    "output": "images/recipes/meat-filo-roll.webp",
+    "bytes": 214478
+  },
+  "lemon-chicken-white-wine": {
+    "source": "lemon_herb_chicken_in_butter_sauce.png",
+    "output": "images/recipes/lemon-chicken-white-wine.webp",
+    "bytes": 217190
+  },
+  "mediterranean-chicken-olives-wine": {
+    "source": "rustic_tomato_chicken_with_olives.png",
+    "output": "images/recipes/mediterranean-chicken-olives-wine.webp",
+    "bytes": 258112
+  },
+  "onion-cheese-pie": {
+    "source": "golden_onion_and_cheese_gratin_slice.png",
+    "output": "images/recipes/onion-cheese-pie.webp",
+    "bytes": 279494
+  },
+  "meat-lasagna-parve-bechamel": {
+    "source": "golden_lasagna_slice_lifted_fresh.png",
+    "output": "images/recipes/meat-lasagna-parve-bechamel.webp",
+    "bytes": 267890
+  },
+  "chraimeh-nile-perch": {
+    "source": "rustic_tomato_fish_stew_with_herbs.png",
+    "output": "images/recipes/chraimeh-nile-perch.webp",
+    "bytes": 250500
+  },
+  "creamy-mashed-potatoes": {
+    "source": "rustic_buttered_mashed_potatoes.png",
+    "output": "images/recipes/creamy-mashed-potatoes.webp",
+    "bytes": 152092
+  },
+  "drumsticks-tomato-olives": {
+    "source": "rustic_chicken_drumsticks_with_tomato_and_olives.png",
+    "output": "images/recipes/drumsticks-tomato-olives.webp",
+    "bytes": 251140
+  },
+  "chocolate-birthday-cake": {
+    "source": "colorful_sprinkle_chocolate_layer_cake.png",
+    "output": "images/recipes/chocolate-birthday-cake.webp",
+    "bytes": 195574
+  },
+  "onion-leek-parve-pie": {
+    "source": "rustic_golden_savory_pie_slice.png",
+    "output": "images/recipes/onion-leek-parve-pie.webp",
+    "bytes": 214340
+  },
+  "green-vegetable-medley": {
+    "source": "rustic_herb_roasted_vegetable_medley.png",
+    "output": "images/recipes/green-vegetable-medley.webp",
+    "bytes": 194090
+  },
+  "hen-chicken-thighs-sweet-potato-onion": {
+    "source": "rustic_glazed_chicken_and_roasted_vegetables.png",
+    "output": "images/recipes/hen-chicken-thighs-sweet-potato-onion.webp",
+    "bytes": 239878
+  },
+  "hen-easy-perfect-lasagna": {
+    "source": "creamy_spinach_lasagna_slice.png",
+    "output": "images/recipes/hen-easy-perfect-lasagna.webp",
+    "bytes": 163874
+  }
+}
