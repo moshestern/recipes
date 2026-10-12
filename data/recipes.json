@@ -2,7 +2,7 @@
   "schema_version": "1.3",
   "language": "he-IL",
   "direction": "rtl",
-  "recipe_count": 27,
+  "recipe_count": 28,
   "recipes": [
     {
       "id": "mild-coconut-chicken-curry",
@@ -6205,6 +6205,328 @@
         "מתאים במיוחד להגשה עם אורז לבן, קוסקוס או פירה."
       ],
       "image": "./images/recipes/beef-sweet-potato-meatballs-sweet-sauce.webp"
+    },
+    {
+      "id": "lemon-celery-beef-meatballs",
+      "name": "קציצות בשר ברוטב לימון וסלרי",
+      "category": "בשר",
+      "servings": "4–5 מנות (כ־18 קציצות)",
+      "tags": [
+        "בשרי",
+        "ילדים",
+        "סיר",
+        "מתאים לאורז",
+        "מתאים לחימום חוזר"
+      ],
+      "times": {
+        "prep_minutes": 15,
+        "cook_minutes": "50–55"
+      },
+      "ingredient_groups": [
+        {
+          "name": "לקציצות",
+          "items": [
+            {
+              "id": "beef",
+              "name": "בשר בקר טחון",
+              "quantity": "700",
+              "unit": "גרם",
+              "display": "700 גרם בשר בקר טחון"
+            },
+            {
+              "id": "meat_onion",
+              "name": "בצל",
+              "quantity": "1",
+              "unit": "בינוני",
+              "display": "1 בצל בינוני מגורר דק"
+            },
+            {
+              "id": "meat_garlic",
+              "name": "שום",
+              "quantity": "2",
+              "unit": "שיניים",
+              "display": "2 שיני שום כתושות"
+            },
+            {
+              "id": "egg",
+              "name": "ביצה",
+              "quantity": "1",
+              "unit": "יחידה",
+              "display": "1 ביצה"
+            },
+            {
+              "id": "breadcrumbs",
+              "name": "פירורי לחם",
+              "quantity": "1/3",
+              "unit": "כוס",
+              "display": "⅓ כוס פירורי לחם"
+            },
+            {
+              "id": "meat_parsley",
+              "name": "פטרוזיליה",
+              "display": "חופן פטרוזיליה קצוצה"
+            },
+            {
+              "id": "meat_paprika",
+              "name": "פפריקה מתוקה",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית פפריקה מתוקה"
+            },
+            {
+              "id": "cumin",
+              "name": "כמון",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית כמון"
+            },
+            {
+              "id": "meat_salt",
+              "name": "מלח",
+              "quantity": "1",
+              "unit": "כפית שטוחה",
+              "display": "1 כפית שטוחה מלח"
+            },
+            {
+              "id": "meat_pepper",
+              "name": "פלפל שחור",
+              "display": "מעט פלפל שחור"
+            },
+            {
+              "id": "cold_water",
+              "name": "מים קרים",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות מים קרים"
+            }
+          ]
+        },
+        {
+          "name": "לרוטב",
+          "items": [
+            {
+              "id": "sauce_onion",
+              "name": "בצל",
+              "quantity": "1",
+              "unit": "גדול",
+              "display": "1 בצל גדול פרוס לרצועות"
+            },
+            {
+              "id": "celery",
+              "name": "סלרי",
+              "quantity": "3",
+              "unit": "גבעולים",
+              "display": "3 גבעולי סלרי עם העלים, חתוכים גס לחתיכות של 8–10 ס״מ"
+            },
+            {
+              "id": "sauce_garlic",
+              "name": "שום",
+              "quantity": "4",
+              "unit": "שיניים",
+              "display": "4 שיני שום פרוסות"
+            },
+            {
+              "id": "olive_oil",
+              "name": "שמן זית",
+              "quantity": "3",
+              "unit": "כפות",
+              "display": "3 כפות שמן זית"
+            },
+            {
+              "id": "turmeric",
+              "name": "כורכום",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית כורכום"
+            },
+            {
+              "id": "sauce_paprika",
+              "name": "פפריקה מתוקה",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית פפריקה מתוקה"
+            },
+            {
+              "id": "liquid",
+              "name": "מים או ציר עוף",
+              "quantity": "2.5",
+              "unit": "כוסות",
+              "display": "2½ כוסות מים או ציר עוף"
+            },
+            {
+              "id": "lemon",
+              "name": "מיץ לימון",
+              "quantity": "5",
+              "unit": "כפות",
+              "display": "מיץ מלימון גדול וחצי (כ־5 כפות), להוספה בהדרגה"
+            },
+            {
+              "id": "sauce_salt",
+              "name": "מלח",
+              "display": "מלח לפי הטעם"
+            },
+            {
+              "id": "sauce_pepper",
+              "name": "פלפל שחור",
+              "display": "פלפל שחור לפי הטעם"
+            },
+            {
+              "id": "sauce_parsley",
+              "name": "פטרוזיליה",
+              "display": "מעט פטרוזיליה קצוצה"
+            }
+          ]
+        },
+        {
+          "name": "להסמכה או לתוספת טעם, לא חובה",
+          "items": [
+            {
+              "id": "cornstarch",
+              "name": "קורנפלור",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית קורנפלור",
+              "optional": true
+            },
+            {
+              "id": "starch_water",
+              "name": "מים קרים",
+              "quantity": "2",
+              "unit": "כפות",
+              "display": "2 כפות מים קרים",
+              "optional": true
+            },
+            {
+              "id": "lemon_zest",
+              "name": "גרידת לימון",
+              "display": "מעט גרידת לימון",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "מכינים את תערובת הקציצות",
+          "instruction": "מערבבים 700 גרם בשר בקר טחון, 1 בצל בינוני מגורר, 2 שיני שום כתושות, 1 ביצה, ⅓ כוס פירורי לחם, חופן פטרוזיליה קצוצה, 1 כפית פפריקה מתוקה, ½ כפית כמון, 1 כפית שטוחה מלח, מעט פלפל שחור ו־2 כפות מים קרים, רק עד שהתערובת אחידה.",
+          "ingredient_refs": [
+            "beef",
+            "meat_onion",
+            "meat_garlic",
+            "egg",
+            "breadcrumbs",
+            "meat_parsley",
+            "meat_paprika",
+            "cumin",
+            "meat_salt",
+            "meat_pepper",
+            "cold_water"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "מקררים ויוצרים קציצות",
+          "instruction": "מניחים את התערובת במקרר ל־15 דקות, ואז יוצרים כ־18 קציצות.",
+          "ingredient_refs": [],
+          "timer_minutes": 15,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "תערובת הקציצות"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "מטגנים את הבצל והסלרי",
+          "instruction": "מחממים 3 כפות שמן זית בסיר רחב. מטגנים 1 בצל גדול פרוס 5–7 דקות עד להזהבה קלה. מוסיפים 3 גבעולי סלרי עם העלים, חתוכים גס לחתיכות של 8–10 ס״מ, ומטגנים עוד 4 דקות.",
+          "ingredient_refs": [
+            "olive_oil",
+            "sauce_onion",
+            "celery"
+          ]
+        },
+        {
+          "id": 4,
+          "title": "מתבלים ומביאים לרתיחה",
+          "instruction": "מוסיפים 4 שיני שום פרוסות, ½ כפית כורכום ו־½ כפית פפריקה מתוקה, ומערבבים כחצי דקה. יוצקים 2½ כוסות מים או ציר עוף, מתבלים במלח ובפלפל שחור לפי הטעם ומביאים לרתיחה עדינה.",
+          "ingredient_refs": [
+            "sauce_garlic",
+            "turmeric",
+            "sauce_paprika",
+            "liquid",
+            "sauce_salt",
+            "sauce_pepper"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "מבשלים את הקציצות",
+          "instruction": "מכניסים בעדינות כ־18 קציצות לרוטב המבעבע, מכסים ומבשלים על אש נמוכה כ־30 דקות. מנענעים מדי פעם את הסיר במקום לערבב בכף.",
+          "ingredient_refs": [],
+          "timer_minutes": 30,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "הקציצות המעוצבות"
+            },
+            {
+              "label": "הרוטב שבסיר"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "מוסיפים את הלימון ומצמצמים",
+          "instruction": "מוסיפים בהדרגה מיץ מלימון גדול וחצי (כ־5 כפות): מתחילים בכ־3 כפות, טועמים ומוסיפים עוד לפי החמיצות הרצויה. מבשלים עוד 10 דקות ללא מכסה לצמצום קל של הרוטב.",
+          "ingredient_refs": [
+            "lemon"
+          ],
+          "timer_minutes": 10,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "הקציצות המבושלות ברוטב"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "מסיימים ומגישים",
+          "instruction": "מפזרים מעט פטרוזיליה קצוצה. אפשר להוסיף מעט גרידת לימון בסוף הבישול. מוציאים מהמנות של הילדים את חתיכות הסלרי הגדולות והעלים המחוברים אליהן.",
+          "ingredient_refs": [
+            "sauce_parsley",
+            "lemon_zest"
+          ],
+          "needs": [
+            {
+              "label": "הקציצות ברוטב הלימוני"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "מסמיכים רק אם צריך",
+          "instruction": "אם רוצים רוטב סמיך יותר, מערבבים 1 כפית קורנפלור עם 2 כפות מים קרים, יוצקים לסיר ומבשלים כ־5 דקות נוספות.",
+          "ingredient_refs": [
+            "cornstarch",
+            "starch_water"
+          ],
+          "needs": [
+            {
+              "label": "הרוטב המוכן"
+            }
+          ]
+        }
+      ],
+      "variations": [],
+      "notes": [
+        "מומלץ להשאיר את עלי הסלרי מחוברים לגבעולים, כדי שיהיה קל להוציא אותם בשלמותם מהמנות של הילדים.",
+        "אפשר להגיש עם אורז לבן או חלה לספיגת הרוטב.",
+        "לא ללוש את הבשר יתר על המידה ולא לבשל את הקציצות ברתיחה חזקה."
+      ],
+      "image": "./images/recipes/lemon-celery-beef-meatballs.webp"
     }
   ]
 }
