@@ -2,7 +2,7 @@
   "schema_version": "1.3",
   "language": "he-IL",
   "direction": "rtl",
-  "recipe_count": 28,
+  "recipe_count": 29,
   "recipes": [
     {
       "id": "mild-coconut-chicken-curry",
@@ -6527,6 +6527,260 @@
         "לא ללוש את הבשר יתר על המידה ולא לבשל את הקציצות ברתיחה חזקה."
       ],
       "image": "./images/recipes/lemon-celery-beef-meatballs.webp"
+    },
+    {
+      "id": "pomegranate-chicken-thighs",
+      "name": "פרגיות ברוטב רימונים חמצמץ־מלוח",
+      "category": "עוף",
+      "tags": [
+        "בשרי",
+        "סיר",
+        "אירוח",
+        "מתאים לאורז",
+        "מתאים להכנה מראש",
+        "מתאים לחימום חוזר"
+      ],
+      "times": {
+        "cook_minutes": "40–50"
+      },
+      "ingredient_groups": [
+        {
+          "name": "מצרכים",
+          "items": [
+            {
+              "id": "chicken_thighs",
+              "name": "פרגיות",
+              "quantity": "1.2",
+              "unit": "ק״ג",
+              "display": "1.2 ק״ג פרגיות, חתוכות לנתחים גדולים"
+            },
+            {
+              "id": "olive_oil",
+              "name": "שמן זית",
+              "quantity": "2.5",
+              "unit": "כפות",
+              "display": "2½ כפות שמן זית"
+            },
+            {
+              "id": "onion",
+              "name": "בצל גדול",
+              "quantity": "1",
+              "unit": "גדול",
+              "display": "1 בצל גדול, פרוס לחצאי טבעות בעובי כ־3–4 מ״מ"
+            },
+            {
+              "id": "garlic",
+              "name": "שום",
+              "quantity": "4",
+              "unit": "שיניים",
+              "display": "4 שיני שום כתושות"
+            },
+            {
+              "id": "red_wine",
+              "name": "יין אדום יבש",
+              "quantity": "1/3–1/2",
+              "unit": "כוס",
+              "display": "⅓–½ כוס יין אדום יבש"
+            },
+            {
+              "id": "pomegranate_juice",
+              "name": "מיץ רימונים טבעי",
+              "quantity": "1",
+              "unit": "כוס",
+              "display": "1 כוס מיץ רימונים טבעי"
+            },
+            {
+              "id": "pomegranate_molasses",
+              "name": "רכז רימונים",
+              "quantity": "2.5",
+              "unit": "כפות",
+              "display": "2½ כפות רכז רימונים"
+            },
+            {
+              "id": "soy_sauce",
+              "name": "רוטב סויה",
+              "quantity": "1.25",
+              "unit": "כפות",
+              "display": "1¼ כפות רוטב סויה"
+            },
+            {
+              "id": "lemon_juice",
+              "name": "מיץ לימון",
+              "quantity": "1",
+              "unit": "כף",
+              "display": "1 כף מיץ לימון"
+            },
+            {
+              "id": "paprika",
+              "name": "פפריקה מתוקה",
+              "quantity": "1/2",
+              "unit": "כפית",
+              "display": "½ כפית פפריקה מתוקה"
+            },
+            {
+              "id": "black_pepper",
+              "name": "פלפל שחור",
+              "quantity": "1/4",
+              "unit": "כפית",
+              "display": "¼ כפית פלפל שחור"
+            },
+            {
+              "id": "salt",
+              "name": "מלח",
+              "quantity": "3/4–1",
+              "unit": "כפית",
+              "display": "¾–1 כפית מלח, לפי הטעם"
+            },
+            {
+              "id": "water",
+              "name": "מים",
+              "quantity": "1/4",
+              "unit": "כוס",
+              "display": "¼ כוס מים"
+            },
+            {
+              "id": "silan",
+              "name": "סילאן",
+              "quantity": "1",
+              "unit": "כפית",
+              "display": "1 כפית סילאן, רק אם הרוטב חמצמץ מדי",
+              "optional": true
+            },
+            {
+              "id": "pomegranate_seeds",
+              "name": "גרגירי רימון",
+              "display": "גרגירי רימון להגשה",
+              "optional": true
+            },
+            {
+              "id": "parsley",
+              "name": "פטרוזיליה",
+              "display": "פטרוזיליה קצוצה להגשה",
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "title": "צורבים את הפרגיות",
+          "instruction": "מחממים בסיר רחב או במחבת עמוקה 2½ כפות שמן זית. מוסיפים 1.2 ק״ג פרגיות בשכבה לא צפופה מדי וצורבים 2–3 דקות מכל צד, רק עד שהן מקבלות צבע יפה. אם צריך, עובדים בשתי נגלות. מוציאים לצלחת.",
+          "ingredient_refs": [
+            "olive_oil",
+            "chicken_thighs"
+          ]
+        },
+        {
+          "id": 2,
+          "title": "מטגנים בצל ושום",
+          "instruction": "באותו הסיר מוסיפים 1 בצל גדול פרוס לחצאי טבעות בעובי כ־3–4 מ״מ ומטגנים על אש בינונית 6–8 דקות, עד שהוא מתרכך ומתחיל להזהיב. מוסיפים 4 שיני שום כתושות ומערבבים כ־30 שניות.",
+          "ingredient_refs": [
+            "onion",
+            "garlic"
+          ],
+          "timer_minutes": 6,
+          "timer_options": [
+            6,
+            8
+          ]
+        },
+        {
+          "id": 3,
+          "title": "מצמצמים את היין",
+          "instruction": "מוסיפים ⅓–½ כוס יין אדום יבש ומבשלים 2–3 דקות, עד שהאלכוהול מתאדה מעט והיין מצטמצם.",
+          "ingredient_refs": [
+            "red_wine"
+          ],
+          "timer_minutes": 2,
+          "timer_options": [
+            2,
+            3
+          ]
+        },
+        {
+          "id": 4,
+          "title": "בונים את רוטב הרימונים",
+          "instruction": "מוסיפים 1 כוס מיץ רימונים טבעי, 2½ כפות רכז רימונים, 1¼ כפות רוטב סויה, 1 כף מיץ לימון, ½ כפית פפריקה מתוקה, ¼ כפית פלפל שחור, ¾–1 כפית מלח ו־¼ כוס מים. מערבבים ומביאים לרתיחה קלה.",
+          "ingredient_refs": [
+            "pomegranate_juice",
+            "pomegranate_molasses",
+            "soy_sauce",
+            "lemon_juice",
+            "paprika",
+            "black_pepper",
+            "salt",
+            "water"
+          ]
+        },
+        {
+          "id": 5,
+          "title": "מבשלים את הפרגיות ברוטב",
+          "instruction": "מחזירים לסיר את 1.2 ק״ג הפרגיות הצרובות ואת הנוזלים שהצטברו בצלחת. מכסים חלקית ומבשלים על אש בינונית־נמוכה 20 דקות.",
+          "ingredient_refs": [
+            "chicken_thighs"
+          ],
+          "timer_minutes": 20,
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "רוטב הרימונים המוכן"
+            },
+            {
+              "label": "הפרגיות הצרובות"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "מצמצמים את הרוטב",
+          "instruction": "מסירים את המכסה ומבשלים עוד 10–15 דקות, עד שהרוטב מצטמצם, נעשה מבריק ומצפה יפה את הפרגיות.",
+          "ingredient_refs": [],
+          "timer_minutes": 10,
+          "timer_options": [
+            10,
+            15
+          ],
+          "suggest_timer": true,
+          "needs": [
+            {
+              "label": "הפרגיות המבושלות ברוטב"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "טועמים ומאזנים",
+          "instruction": "טועמים ומתקנים מלח לפי הצורך. רק אם הרוטב חמצמץ מדי, מוסיפים 1 כפית סילאן ומערבבים.",
+          "ingredient_refs": [
+            "salt",
+            "silan"
+          ],
+          "needs": [
+            {
+              "label": "הרוטב המצומצם"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "מגישים",
+          "instruction": "אם רוצים, מפזרים גרגירי רימון ופטרוזיליה קצוצה ומגישים חם.",
+          "ingredient_refs": [
+            "pomegranate_seeds",
+            "parsley"
+          ]
+        }
+      ],
+      "variations": [],
+      "storage": {
+        "refrigerator": "מתאים להכנה מראש; אחרי לילה במקרר הטעמים מתחברים היטב.",
+        "reheat": "לחמם בעדינות. אם הרוטב הסמיך מאוד במקרר, אפשר להוסיף מעט מים בזמן החימום."
+      },
+      "notes": [
+        "מתאים במיוחד להגשה עם אורז לבן או תפוחי אדמה."
+      ],
+      "image": "./images/recipes/pomegranate-chicken-thighs.webp"
     }
   ]
 }
